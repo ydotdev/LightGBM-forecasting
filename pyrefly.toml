@@ -1,0 +1,3 @@
+# Pyrefly static type checker and language server configuration
+python-interpreter-path = "intelligence/.venv/Scripts/python.exe"
+search-path = ["intelligence"]

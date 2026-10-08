@@ -1,0 +1,7 @@
+{
+  "venvPath": "intelligence",
+  "venv": ".venv",
+  "extraPaths": [
+    "intelligence"
+  ]
+}
