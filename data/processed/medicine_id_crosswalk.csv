@@ -1,0 +1,9 @@
+source,source_medicine_id,generic_name,canonical_medicine_id,mapping_level,strength,dosage_form,review_required
+ledger,MED001,Paracetamol,PGMED004,generic_name_only,UNKNOWN,UNKNOWN,true
+ledger,MED002,Amoxicillin,PGMED001,generic_name_only,UNKNOWN,UNKNOWN,true
+ledger,MED003,Atorvastatin,PGMED002,generic_name_only,UNKNOWN,UNKNOWN,true
+shortage,MED001,Paracetamol,PGMED004,generic_name_only,UNKNOWN,UNKNOWN,true
+shortage,MED002,Amoxicillin,PGMED001,generic_name_only,UNKNOWN,UNKNOWN,true
+shortage,MED003,Salbutamol,PGMED005,generic_name_only,UNKNOWN,UNKNOWN,true
+shortage,MED004,Normal Saline IV,PGMED003,generic_name_only,UNKNOWN,UNKNOWN,true
+shortage,MED005,Atorvastatin,PGMED002,generic_name_only,UNKNOWN,UNKNOWN,true

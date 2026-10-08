@@ -1,0 +1,6 @@
+medicine_id,generic_name,strength,dosage_form,unit_of_measure,identity_review_required,source
+PGMED001,Amoxicillin,UNKNOWN,UNKNOWN,unit_unspecified,true,hospital_datasets
+PGMED002,Atorvastatin,UNKNOWN,UNKNOWN,unit_unspecified,true,hospital_datasets
+PGMED003,Normal Saline IV,UNKNOWN,UNKNOWN,unit_unspecified,true,hospital_datasets
+PGMED004,Paracetamol,UNKNOWN,UNKNOWN,unit_unspecified,true,hospital_datasets
+PGMED005,Salbutamol,UNKNOWN,UNKNOWN,unit_unspecified,true,hospital_datasets

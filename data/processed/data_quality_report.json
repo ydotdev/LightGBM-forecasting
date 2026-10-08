@@ -1,0 +1,70 @@
+{
+  "source_rows": {
+    "ledger": 270,
+    "shortage": 300,
+    "shortage_duplicate": 300,
+    "catalog": 500
+  },
+  "shortage_copy_identical": true,
+  "canonical_generic_names": {
+    "Amoxicillin": "PGMED001",
+    "Atorvastatin": "PGMED002",
+    "Normal Saline IV": "PGMED003",
+    "Paracetamol": "PGMED004",
+    "Salbutamol": "PGMED005"
+  },
+  "canonical_identity_warning": "Mapped by generic name only; strength, formulation and unit are unknown. Not safe for automatic clinical substitution or real transfers.",
+  "overlap_hospital_medicine_date_count": 135,
+  "training_target_warning": "Requested demand from shortage file and dispensed units from ledger are distinct targets; never coalesce without validated reconciliation.",
+  "source_coverage": {
+    "shortage": {
+      "date_min": "2026-09-24",
+      "date_max": "2026-10-08",
+      "hospitals": [
+        "HOSP_A",
+        "HOSP_B",
+        "HOSP_C",
+        "HOSP_D"
+      ],
+      "generic_medicines": [
+        "Amoxicillin",
+        "Atorvastatin",
+        "Normal Saline IV",
+        "Paracetamol",
+        "Salbutamol"
+      ]
+    },
+    "ledger": {
+      "date_min": "2026-09-09",
+      "date_max": "2026-10-08",
+      "hospitals": [
+        "HOSP_A",
+        "HOSP_B",
+        "HOSP_C"
+      ],
+      "generic_medicines": [
+        "Amoxicillin",
+        "Atorvastatin",
+        "Paracetamol"
+      ]
+    }
+  },
+  "output_rows": {
+    "medicines_clean": 5,
+    "demand_history_clean": 300,
+    "dispensing_history_clean": 270,
+    "hospital_daily_metrics_clean": 90,
+    "inventory_batch_snapshots": 270,
+    "inventory_aggregate_snapshots": 300,
+    "source_risk_labels_reference_only": 300,
+    "medicine_id_crosswalk": 8,
+    "medicine_catalog_unmatched": 500
+  },
+  "limitations": [
+    "Shortage history is only 15 days; ledger dispensing history is 30 days.",
+    "Catalog has a conflicting ID namespace and implausible combinations; retained separately for review.",
+    "Batch snapshots are not equivalent to aggregate inventory and cannot be summed across dates.",
+    "No validated MOU, transport, hospital reserve, confirmed supplier deliveries, or full inventory transaction history.",
+    "Source risk labels are held out of forecasting features to avoid target leakage."
+  ]
+}

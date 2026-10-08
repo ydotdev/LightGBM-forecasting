@@ -1,0 +1,501 @@
+medicine_id,generic_name,brand_name,category,therapeutic_class,strength,dosage_form,route_of_administration,unit_of_measure,units_per_pack,storage_type,min_storage_temp_c,max_storage_temp_c,shelf_life_days,criticality_level,lead_time_days,reorder_level,substitution_group_id,active
+MED001,Omeprazole,Prilosec,Antibiotic,Gastric,20 mg,Tablet,Oral,tablet,60,Ambient,15.0,25.0,1095,High,13,500,SUB036,False
+MED002,Ibuprofen,Glucophage,Antibiotic,Cardiovascular,10 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,547,Medium,26,200,SUB013,True
+MED003,Ibuprofen,Glucophage,Antibiotic,Cardiovascular,500 mg,Tablet,Oral,tablet,30,Refrigerated,2.0,8.0,547,Medium,26,50,SUB015,True
+MED004,Ibuprofen,Tylenol,Analgesic,Infection Control,40 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,1095,High,20,500,SUB025,True
+MED005,Amoxicillin,Glucophage,Analgesic,Pain Relief,200 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,547,Medium,3,50,SUB043,True
+MED006,Paracetamol,Glucophage,Antibiotic,Cardiovascular,5 mg/ml,Syrup,Oral,bottle,60,Ambient,15.0,25.0,730,Critical,28,500,SUB025,False
+MED007,Paracetamol,Prilosec,Antacid,Pain Relief,500 mg,Tablet,Oral,tablet,10,Refrigerated,2.0,8.0,730,Medium,3,200,SUB006,False
+MED008,Paracetamol,Tylenol,Antacid,Cardiovascular,100 mg,Tablet,Oral,tablet,60,Ambient,15.0,25.0,730,High,8,100,SUB009,False
+MED009,Metformin,Prilosec,Analgesic,Gastric,500 mg,Ointment,Topical,tube,100,Cold Chain,2.0,8.0,1095,Medium,2,100,SUB012,True
+MED010,Metformin,Glucophage,Analgesic,Metabolic,250 mg,Tablet,Oral,tablet,100,Refrigerated,2.0,8.0,365,Low,24,50,SUB013,True
+MED011,Ibuprofen,Prilosec,Antibiotic,Pain Relief,10 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,1095,Critical,21,50,SUB050,True
+MED012,Ibuprofen,Prilosec,Antacid,Infection Control,40 mg,Syrup,Oral,bottle,60,Ambient,15.0,25.0,730,Critical,23,500,SUB022,False
+MED013,Ibuprofen,Amoxil,Analgesic,Cardiovascular,5 mg/ml,Tablet,Oral,tablet,60,Cold Chain,2.0,8.0,365,Critical,28,50,SUB027,True
+MED014,Paracetamol,Glucophage,Analgesic,Cardiovascular,20 mg,Syrup,Oral,bottle,60,Refrigerated,2.0,8.0,547,Low,15,500,SUB003,False
+MED015,Paracetamol,Amoxil,Antidiabetic,Antipyretic,20 mg,Syrup,Oral,bottle,50,Cold Chain,2.0,8.0,1095,Low,9,200,SUB022,True
+MED016,Paracetamol,Amoxil,Antibiotic,Cardiovascular,5 mg/ml,Injection,IV,vial,50,Cold Chain,2.0,8.0,547,High,23,100,SUB015,True
+MED017,Omeprazole,Tylenol,Antidiabetic,Cardiovascular,10 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,365,Critical,4,500,SUB008,False
+MED018,Ibuprofen,Advil,Antacid,Antipyretic,200 mg,Tablet,Oral,tablet,20,Refrigerated,2.0,8.0,730,Medium,19,100,SUB022,False
+MED019,Paracetamol,Amoxil,Analgesic,Respiratory,40 mg,Injection,IV,vial,60,Cold Chain,2.0,8.0,1095,High,4,200,SUB010,False
+MED020,Metformin,Prilosec,Antibiotic,Metabolic,10 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,547,Low,24,100,SUB045,True
+MED021,Paracetamol,Amoxil,Analgesic,Respiratory,10 mg,Ointment,Topical,tube,50,Ambient,15.0,25.0,547,Low,29,100,SUB025,False
+MED022,Omeprazole,Tylenol,Antidiabetic,Infection Control,5 mg/ml,Tablet,Oral,tablet,30,Ambient,15.0,25.0,1095,Low,20,500,SUB041,True
+MED023,Metformin,Prilosec,Antibiotic,Infection Control,500 mg,Capsule,Oral,capsule,50,Cold Chain,2.0,8.0,730,High,11,100,SUB035,True
+MED024,Ibuprofen,Advil,Antibiotic,Respiratory,40 mg,Inhaler,Inhalation,inhaler,10,Cold Chain,2.0,8.0,1095,Low,8,500,SUB022,True
+MED025,Omeprazole,Advil,Antidiabetic,Pain Relief,200 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,1095,Critical,24,100,SUB047,True
+MED026,Metformin,Glucophage,Antidiabetic,Antipyretic,5 mg/ml,Tablet,Oral,tablet,50,Refrigerated,2.0,8.0,730,Medium,7,100,SUB026,False
+MED027,Metformin,Tylenol,Antacid,Infection Control,20 mg,Capsule,Oral,capsule,100,Ambient,15.0,25.0,547,Medium,25,100,SUB002,True
+MED028,Amoxicillin,Advil,Antidiabetic,Cardiovascular,20 mg,Injection,IV,vial,10,Ambient,15.0,25.0,547,Medium,4,100,SUB022,False
+MED029,Ibuprofen,Glucophage,Analgesic,Gastric,20 mg,Capsule,Oral,capsule,100,Refrigerated,2.0,8.0,365,Critical,17,200,SUB022,True
+MED030,Omeprazole,Amoxil,Analgesic,Infection Control,10 mg,Tablet,Oral,tablet,10,Refrigerated,2.0,8.0,365,Medium,21,100,SUB021,True
+MED031,Metformin,Tylenol,Antacid,Infection Control,200 mg,Tablet,Oral,tablet,60,Ambient,15.0,25.0,365,High,27,50,SUB032,True
+MED032,Paracetamol,Advil,Antidiabetic,Cardiovascular,200 mg,Tablet,Oral,tablet,20,Ambient,15.0,25.0,730,Low,30,500,SUB029,False
+MED033,Amoxicillin,Prilosec,Antibiotic,Metabolic,10 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,1095,High,17,500,SUB001,False
+MED034,Omeprazole,Prilosec,Antidiabetic,Metabolic,200 mg,Inhaler,Inhalation,inhaler,100,Cold Chain,2.0,8.0,365,Critical,16,200,SUB012,True
+MED035,Metformin,Prilosec,Analgesic,Gastric,100 mg,Capsule,Oral,capsule,100,Cold Chain,2.0,8.0,547,High,5,200,SUB012,False
+MED036,Omeprazole,Amoxil,Antidiabetic,Infection Control,20 mg,Capsule,Oral,capsule,50,Refrigerated,2.0,8.0,1095,Low,15,100,SUB025,True
+MED037,Omeprazole,Amoxil,Antacid,Cardiovascular,200 mg,Capsule,Oral,capsule,20,Cold Chain,2.0,8.0,1095,Low,10,50,SUB004,False
+MED038,Amoxicillin,Advil,Antacid,Gastric,500 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,547,Low,25,50,SUB047,True
+MED039,Ibuprofen,Amoxil,Antibiotic,Metabolic,5 mg/ml,Tablet,Oral,tablet,60,Refrigerated,2.0,8.0,730,Low,3,200,SUB025,True
+MED040,Metformin,Advil,Analgesic,Respiratory,500 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,365,Low,3,100,SUB016,False
+MED041,Paracetamol,Glucophage,Antacid,Metabolic,100 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,730,High,26,100,SUB006,True
+MED042,Ibuprofen,Prilosec,Analgesic,Gastric,500 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,1095,Medium,28,500,SUB030,True
+MED043,Amoxicillin,Glucophage,Antidiabetic,Antipyretic,10 mg,Injection,IV,vial,60,Refrigerated,2.0,8.0,1095,High,8,50,SUB034,True
+MED044,Amoxicillin,Tylenol,Antibiotic,Gastric,250 mg,Injection,IV,vial,30,Ambient,15.0,25.0,547,High,19,200,SUB031,True
+MED045,Ibuprofen,Tylenol,Antacid,Metabolic,250 mg,Inhaler,Inhalation,inhaler,20,Cold Chain,2.0,8.0,1095,Critical,4,200,SUB037,True
+MED046,Metformin,Prilosec,Antibiotic,Pain Relief,200 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,547,Low,14,500,SUB027,True
+MED047,Omeprazole,Prilosec,Analgesic,Respiratory,5 mg/ml,Injection,IV,vial,100,Ambient,15.0,25.0,730,Low,22,200,SUB002,False
+MED048,Paracetamol,Advil,Antibiotic,Gastric,100 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,365,Medium,3,500,SUB032,True
+MED049,Paracetamol,Amoxil,Antidiabetic,Cardiovascular,20 mg,Inhaler,Inhalation,inhaler,30,Cold Chain,2.0,8.0,1095,Medium,24,500,SUB046,True
+MED050,Paracetamol,Tylenol,Antidiabetic,Pain Relief,40 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,365,Critical,2,200,SUB026,True
+MED051,Ibuprofen,Amoxil,Antacid,Pain Relief,200 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,365,High,11,50,SUB029,False
+MED052,Amoxicillin,Glucophage,Antacid,Pain Relief,200 mg,Injection,IV,vial,10,Cold Chain,2.0,8.0,1095,Medium,25,500,SUB024,True
+MED053,Amoxicillin,Prilosec,Antibiotic,Respiratory,250 mg,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,365,High,19,50,SUB036,True
+MED054,Ibuprofen,Amoxil,Antacid,Cardiovascular,200 mg,Capsule,Oral,capsule,100,Refrigerated,2.0,8.0,730,Medium,6,200,SUB023,True
+MED055,Omeprazole,Tylenol,Antidiabetic,Respiratory,500 mg,Inhaler,Inhalation,inhaler,20,Ambient,15.0,25.0,365,Medium,23,50,SUB009,False
+MED056,Metformin,Amoxil,Antidiabetic,Respiratory,200 mg,Injection,IV,vial,10,Refrigerated,2.0,8.0,547,Low,16,500,SUB023,True
+MED057,Metformin,Advil,Analgesic,Cardiovascular,100 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,730,Critical,30,50,SUB007,True
+MED058,Amoxicillin,Amoxil,Antidiabetic,Pain Relief,500 mg,Inhaler,Inhalation,inhaler,20,Ambient,15.0,25.0,730,High,4,50,SUB042,True
+MED059,Metformin,Prilosec,Analgesic,Pain Relief,200 mg,Ointment,Topical,tube,10,Cold Chain,2.0,8.0,730,Low,14,500,SUB002,True
+MED060,Paracetamol,Prilosec,Antidiabetic,Infection Control,100 mg,Tablet,Oral,tablet,30,Ambient,15.0,25.0,730,Medium,5,500,SUB045,False
+MED061,Metformin,Glucophage,Antacid,Metabolic,250 mg,Capsule,Oral,capsule,10,Refrigerated,2.0,8.0,730,Medium,21,200,SUB040,True
+MED062,Amoxicillin,Tylenol,Antidiabetic,Metabolic,20 mg,Tablet,Oral,tablet,100,Cold Chain,2.0,8.0,547,Critical,5,200,SUB001,True
+MED063,Omeprazole,Advil,Analgesic,Pain Relief,100 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,547,Critical,23,100,SUB028,True
+MED064,Omeprazole,Glucophage,Antibiotic,Respiratory,5 mg/ml,Capsule,Oral,capsule,50,Refrigerated,2.0,8.0,547,Medium,8,200,SUB037,True
+MED065,Ibuprofen,Amoxil,Antidiabetic,Respiratory,10 mg,Syrup,Oral,bottle,10,Refrigerated,2.0,8.0,365,Critical,6,500,SUB015,True
+MED066,Metformin,Prilosec,Analgesic,Infection Control,5 mg/ml,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,730,Low,10,50,SUB043,True
+MED067,Ibuprofen,Amoxil,Antidiabetic,Respiratory,250 mg,Capsule,Oral,capsule,60,Ambient,15.0,25.0,547,Low,7,50,SUB039,True
+MED068,Amoxicillin,Amoxil,Antidiabetic,Metabolic,500 mg,Inhaler,Inhalation,inhaler,50,Ambient,15.0,25.0,365,High,29,100,SUB023,True
+MED069,Omeprazole,Advil,Analgesic,Antipyretic,5 mg/ml,Injection,IV,vial,10,Refrigerated,2.0,8.0,547,Medium,3,100,SUB048,True
+MED070,Ibuprofen,Prilosec,Antacid,Respiratory,20 mg,Syrup,Oral,bottle,30,Cold Chain,2.0,8.0,365,Medium,13,500,SUB006,True
+MED071,Amoxicillin,Advil,Analgesic,Cardiovascular,20 mg,Syrup,Oral,bottle,10,Refrigerated,2.0,8.0,365,High,10,50,SUB021,True
+MED072,Paracetamol,Amoxil,Antacid,Infection Control,5 mg/ml,Ointment,Topical,tube,50,Ambient,15.0,25.0,547,Low,5,50,SUB010,True
+MED073,Paracetamol,Advil,Antidiabetic,Gastric,100 mg,Injection,IV,vial,10,Ambient,15.0,25.0,730,Critical,24,50,SUB048,True
+MED074,Ibuprofen,Amoxil,Antacid,Gastric,250 mg,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,547,Medium,10,50,SUB014,True
+MED075,Amoxicillin,Glucophage,Antacid,Pain Relief,100 mg,Tablet,Oral,tablet,100,Ambient,15.0,25.0,730,Critical,10,200,SUB043,False
+MED076,Paracetamol,Advil,Antidiabetic,Infection Control,250 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,547,High,24,200,SUB006,False
+MED077,Amoxicillin,Tylenol,Antacid,Infection Control,100 mg,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,1095,Low,21,100,SUB036,True
+MED078,Omeprazole,Tylenol,Antidiabetic,Gastric,250 mg,Tablet,Oral,tablet,30,Cold Chain,2.0,8.0,547,Critical,19,100,SUB025,False
+MED079,Paracetamol,Advil,Antibiotic,Metabolic,100 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,365,High,15,500,SUB036,False
+MED080,Paracetamol,Prilosec,Analgesic,Gastric,20 mg,Ointment,Topical,tube,50,Refrigerated,2.0,8.0,1095,Medium,14,50,SUB025,False
+MED081,Ibuprofen,Amoxil,Antibiotic,Cardiovascular,200 mg,Inhaler,Inhalation,inhaler,60,Refrigerated,2.0,8.0,730,Medium,3,500,SUB045,True
+MED082,Omeprazole,Advil,Antidiabetic,Metabolic,100 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,365,Critical,20,100,SUB034,False
+MED083,Metformin,Glucophage,Antidiabetic,Antipyretic,40 mg,Capsule,Oral,capsule,100,Cold Chain,2.0,8.0,730,Medium,9,50,SUB034,True
+MED084,Ibuprofen,Prilosec,Antibiotic,Antipyretic,100 mg,Inhaler,Inhalation,inhaler,60,Refrigerated,2.0,8.0,1095,Low,16,50,SUB023,True
+MED085,Metformin,Advil,Antibiotic,Pain Relief,5 mg/ml,Tablet,Oral,tablet,50,Refrigerated,2.0,8.0,730,Medium,16,500,SUB009,True
+MED086,Paracetamol,Glucophage,Antibiotic,Metabolic,200 mg,Ointment,Topical,tube,100,Ambient,15.0,25.0,547,Low,12,100,SUB017,True
+MED087,Paracetamol,Prilosec,Antibiotic,Antipyretic,10 mg,Capsule,Oral,capsule,100,Ambient,15.0,25.0,547,Low,2,500,SUB043,True
+MED088,Paracetamol,Advil,Antibiotic,Cardiovascular,100 mg,Capsule,Oral,capsule,20,Refrigerated,2.0,8.0,365,Critical,21,50,SUB028,True
+MED089,Ibuprofen,Tylenol,Antibiotic,Antipyretic,5 mg/ml,Injection,IV,vial,100,Refrigerated,2.0,8.0,1095,Critical,13,50,SUB045,False
+MED090,Ibuprofen,Advil,Antidiabetic,Antipyretic,10 mg,Ointment,Topical,tube,30,Cold Chain,2.0,8.0,547,Low,15,100,SUB019,True
+MED091,Metformin,Amoxil,Analgesic,Gastric,250 mg,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,365,Low,3,50,SUB006,True
+MED092,Ibuprofen,Advil,Antidiabetic,Pain Relief,5 mg/ml,Tablet,Oral,tablet,30,Cold Chain,2.0,8.0,547,High,6,500,SUB037,False
+MED093,Omeprazole,Amoxil,Antibiotic,Respiratory,500 mg,Inhaler,Inhalation,inhaler,100,Ambient,15.0,25.0,1095,Critical,10,500,SUB019,True
+MED094,Amoxicillin,Amoxil,Analgesic,Antipyretic,40 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,365,Critical,10,500,SUB012,True
+MED095,Metformin,Prilosec,Antacid,Respiratory,500 mg,Syrup,Oral,bottle,100,Refrigerated,2.0,8.0,1095,Low,25,50,SUB013,True
+MED096,Paracetamol,Advil,Antibiotic,Gastric,500 mg,Capsule,Oral,capsule,20,Ambient,15.0,25.0,1095,Medium,7,100,SUB042,False
+MED097,Omeprazole,Glucophage,Analgesic,Gastric,20 mg,Capsule,Oral,capsule,10,Refrigerated,2.0,8.0,547,Low,17,100,SUB012,True
+MED098,Ibuprofen,Tylenol,Antibiotic,Antipyretic,40 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,1095,Critical,24,50,SUB027,False
+MED099,Ibuprofen,Amoxil,Antidiabetic,Gastric,10 mg,Syrup,Oral,bottle,50,Ambient,15.0,25.0,1095,Critical,5,500,SUB017,True
+MED100,Ibuprofen,Glucophage,Antibiotic,Antipyretic,20 mg,Capsule,Oral,capsule,20,Ambient,15.0,25.0,730,Medium,21,200,SUB002,True
+MED101,Omeprazole,Tylenol,Antibiotic,Antipyretic,20 mg,Capsule,Oral,capsule,50,Refrigerated,2.0,8.0,1095,Low,9,100,SUB012,True
+MED102,Metformin,Advil,Antidiabetic,Pain Relief,10 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,547,Low,18,500,SUB023,True
+MED103,Amoxicillin,Amoxil,Antacid,Gastric,250 mg,Capsule,Oral,capsule,10,Ambient,15.0,25.0,547,Critical,7,50,SUB049,True
+MED104,Amoxicillin,Tylenol,Analgesic,Respiratory,100 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,365,Low,29,500,SUB034,True
+MED105,Ibuprofen,Amoxil,Analgesic,Metabolic,250 mg,Ointment,Topical,tube,20,Ambient,15.0,25.0,547,Critical,27,200,SUB005,True
+MED106,Amoxicillin,Glucophage,Antidiabetic,Respiratory,5 mg/ml,Tablet,Oral,tablet,60,Refrigerated,2.0,8.0,730,High,11,100,SUB013,True
+MED107,Amoxicillin,Amoxil,Analgesic,Cardiovascular,10 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,730,Low,20,50,SUB049,True
+MED108,Ibuprofen,Tylenol,Antidiabetic,Antipyretic,100 mg,Tablet,Oral,tablet,100,Cold Chain,2.0,8.0,730,Low,4,500,SUB046,True
+MED109,Omeprazole,Advil,Analgesic,Infection Control,5 mg/ml,Syrup,Oral,bottle,10,Ambient,15.0,25.0,1095,Low,7,200,SUB021,False
+MED110,Ibuprofen,Tylenol,Analgesic,Metabolic,5 mg/ml,Capsule,Oral,capsule,20,Cold Chain,2.0,8.0,1095,High,27,500,SUB018,True
+MED111,Ibuprofen,Prilosec,Antacid,Metabolic,500 mg,Syrup,Oral,bottle,20,Ambient,15.0,25.0,547,Medium,6,50,SUB046,True
+MED112,Omeprazole,Prilosec,Antibiotic,Respiratory,40 mg,Tablet,Oral,tablet,20,Ambient,15.0,25.0,365,Low,5,500,SUB023,True
+MED113,Metformin,Prilosec,Antacid,Cardiovascular,100 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,547,High,8,500,SUB020,False
+MED114,Paracetamol,Glucophage,Antibiotic,Cardiovascular,250 mg,Inhaler,Inhalation,inhaler,30,Ambient,15.0,25.0,365,Critical,29,100,SUB021,True
+MED115,Metformin,Prilosec,Analgesic,Respiratory,20 mg,Tablet,Oral,tablet,10,Ambient,15.0,25.0,1095,Critical,5,200,SUB002,False
+MED116,Metformin,Tylenol,Antidiabetic,Infection Control,10 mg,Syrup,Oral,bottle,100,Cold Chain,2.0,8.0,547,Medium,3,500,SUB043,True
+MED117,Ibuprofen,Prilosec,Antidiabetic,Antipyretic,250 mg,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,1095,High,6,500,SUB035,True
+MED118,Ibuprofen,Advil,Antacid,Respiratory,250 mg,Capsule,Oral,capsule,50,Ambient,15.0,25.0,365,Critical,14,100,SUB006,True
+MED119,Omeprazole,Glucophage,Analgesic,Pain Relief,200 mg,Syrup,Oral,bottle,60,Cold Chain,2.0,8.0,547,Low,8,100,SUB043,True
+MED120,Omeprazole,Glucophage,Antacid,Gastric,10 mg,Injection,IV,vial,100,Cold Chain,2.0,8.0,730,Low,8,50,SUB037,True
+MED121,Metformin,Tylenol,Analgesic,Pain Relief,20 mg,Ointment,Topical,tube,20,Ambient,15.0,25.0,547,Critical,13,500,SUB022,True
+MED122,Omeprazole,Advil,Antidiabetic,Infection Control,5 mg/ml,Syrup,Oral,bottle,50,Ambient,15.0,25.0,365,Critical,5,50,SUB037,True
+MED123,Metformin,Prilosec,Antibiotic,Pain Relief,100 mg,Inhaler,Inhalation,inhaler,30,Ambient,15.0,25.0,1095,Critical,17,200,SUB043,True
+MED124,Metformin,Prilosec,Antibiotic,Infection Control,100 mg,Capsule,Oral,capsule,10,Refrigerated,2.0,8.0,547,Medium,28,100,SUB038,True
+MED125,Omeprazole,Advil,Analgesic,Infection Control,500 mg,Ointment,Topical,tube,30,Ambient,15.0,25.0,1095,Low,24,500,SUB023,False
+MED126,Omeprazole,Prilosec,Antidiabetic,Gastric,20 mg,Ointment,Topical,tube,100,Cold Chain,2.0,8.0,547,High,18,200,SUB009,True
+MED127,Amoxicillin,Glucophage,Antibiotic,Gastric,20 mg,Syrup,Oral,bottle,60,Cold Chain,2.0,8.0,547,Critical,25,500,SUB029,True
+MED128,Omeprazole,Tylenol,Analgesic,Respiratory,5 mg/ml,Ointment,Topical,tube,60,Ambient,15.0,25.0,1095,Critical,6,500,SUB033,True
+MED129,Amoxicillin,Glucophage,Antibiotic,Metabolic,500 mg,Capsule,Oral,capsule,100,Cold Chain,2.0,8.0,1095,Medium,18,100,SUB050,True
+MED130,Metformin,Tylenol,Antibiotic,Metabolic,40 mg,Ointment,Topical,tube,20,Refrigerated,2.0,8.0,547,Medium,29,100,SUB034,False
+MED131,Amoxicillin,Tylenol,Analgesic,Infection Control,5 mg/ml,Syrup,Oral,bottle,30,Ambient,15.0,25.0,547,Medium,28,100,SUB034,True
+MED132,Metformin,Advil,Antidiabetic,Pain Relief,500 mg,Tablet,Oral,tablet,100,Refrigerated,2.0,8.0,1095,Critical,3,100,SUB019,True
+MED133,Metformin,Tylenol,Analgesic,Antipyretic,5 mg/ml,Injection,IV,vial,20,Cold Chain,2.0,8.0,1095,Medium,25,500,SUB043,True
+MED134,Amoxicillin,Advil,Antibiotic,Infection Control,200 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,547,High,21,50,SUB048,True
+MED135,Paracetamol,Tylenol,Antidiabetic,Respiratory,250 mg,Capsule,Oral,capsule,60,Ambient,15.0,25.0,1095,Low,19,100,SUB045,True
+MED136,Ibuprofen,Amoxil,Antidiabetic,Metabolic,10 mg,Inhaler,Inhalation,inhaler,100,Cold Chain,2.0,8.0,547,Critical,6,50,SUB042,True
+MED137,Ibuprofen,Prilosec,Analgesic,Gastric,20 mg,Syrup,Oral,bottle,60,Ambient,15.0,25.0,1095,Medium,28,200,SUB008,True
+MED138,Amoxicillin,Prilosec,Antacid,Metabolic,100 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,730,Low,2,200,SUB036,False
+MED139,Amoxicillin,Advil,Antibiotic,Respiratory,250 mg,Ointment,Topical,tube,20,Ambient,15.0,25.0,1095,Low,26,50,SUB029,False
+MED140,Paracetamol,Prilosec,Antacid,Infection Control,5 mg/ml,Capsule,Oral,capsule,30,Refrigerated,2.0,8.0,730,Low,4,100,SUB003,True
+MED141,Amoxicillin,Advil,Antacid,Respiratory,20 mg,Tablet,Oral,tablet,100,Cold Chain,2.0,8.0,547,Critical,6,500,SUB020,False
+MED142,Metformin,Advil,Antidiabetic,Antipyretic,20 mg,Inhaler,Inhalation,inhaler,10,Cold Chain,2.0,8.0,730,Critical,17,100,SUB043,True
+MED143,Metformin,Amoxil,Antidiabetic,Metabolic,250 mg,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,1095,Critical,18,200,SUB048,True
+MED144,Ibuprofen,Tylenol,Antibiotic,Gastric,200 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,730,Low,22,100,SUB044,True
+MED145,Paracetamol,Glucophage,Analgesic,Gastric,10 mg,Inhaler,Inhalation,inhaler,20,Cold Chain,2.0,8.0,365,Medium,9,200,SUB040,True
+MED146,Paracetamol,Advil,Antacid,Gastric,10 mg,Inhaler,Inhalation,inhaler,30,Refrigerated,2.0,8.0,730,Critical,22,500,SUB037,False
+MED147,Omeprazole,Advil,Analgesic,Infection Control,5 mg/ml,Syrup,Oral,bottle,100,Refrigerated,2.0,8.0,730,Medium,24,50,SUB029,False
+MED148,Ibuprofen,Tylenol,Antacid,Gastric,40 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,730,Low,13,50,SUB044,True
+MED149,Omeprazole,Tylenol,Analgesic,Antipyretic,500 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,730,High,16,50,SUB009,True
+MED150,Amoxicillin,Prilosec,Antidiabetic,Cardiovascular,100 mg,Injection,IV,vial,30,Cold Chain,2.0,8.0,1095,Medium,13,50,SUB040,True
+MED151,Omeprazole,Advil,Antidiabetic,Infection Control,5 mg/ml,Injection,IV,vial,20,Refrigerated,2.0,8.0,1095,Medium,5,500,SUB021,True
+MED152,Amoxicillin,Prilosec,Antacid,Pain Relief,10 mg,Syrup,Oral,bottle,100,Cold Chain,2.0,8.0,365,Low,17,200,SUB010,True
+MED153,Amoxicillin,Amoxil,Antacid,Gastric,5 mg/ml,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,730,High,8,50,SUB049,True
+MED154,Metformin,Prilosec,Antidiabetic,Cardiovascular,250 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,1095,Medium,16,500,SUB034,True
+MED155,Omeprazole,Amoxil,Antacid,Cardiovascular,100 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,730,Critical,2,500,SUB021,True
+MED156,Metformin,Tylenol,Antibiotic,Gastric,250 mg,Capsule,Oral,capsule,10,Ambient,15.0,25.0,730,High,28,500,SUB044,True
+MED157,Ibuprofen,Glucophage,Antibiotic,Antipyretic,5 mg/ml,Tablet,Oral,tablet,20,Refrigerated,2.0,8.0,365,High,26,500,SUB018,True
+MED158,Amoxicillin,Advil,Analgesic,Infection Control,200 mg,Inhaler,Inhalation,inhaler,20,Refrigerated,2.0,8.0,1095,Low,25,200,SUB013,False
+MED159,Metformin,Tylenol,Antibiotic,Metabolic,20 mg,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,730,High,22,50,SUB028,True
+MED160,Omeprazole,Glucophage,Analgesic,Pain Relief,20 mg,Ointment,Topical,tube,30,Refrigerated,2.0,8.0,730,Low,18,100,SUB023,False
+MED161,Omeprazole,Prilosec,Antibiotic,Antipyretic,10 mg,Ointment,Topical,tube,30,Ambient,15.0,25.0,1095,High,4,100,SUB037,True
+MED162,Ibuprofen,Amoxil,Antacid,Cardiovascular,5 mg/ml,Injection,IV,vial,20,Refrigerated,2.0,8.0,547,High,14,500,SUB021,True
+MED163,Ibuprofen,Tylenol,Antibiotic,Gastric,200 mg,Syrup,Oral,bottle,10,Cold Chain,2.0,8.0,730,Low,15,50,SUB013,True
+MED164,Amoxicillin,Tylenol,Analgesic,Metabolic,250 mg,Inhaler,Inhalation,inhaler,50,Ambient,15.0,25.0,1095,Low,7,100,SUB038,True
+MED165,Omeprazole,Amoxil,Antidiabetic,Respiratory,100 mg,Capsule,Oral,capsule,50,Ambient,15.0,25.0,1095,Critical,17,200,SUB015,True
+MED166,Omeprazole,Glucophage,Analgesic,Respiratory,20 mg,Capsule,Oral,capsule,60,Ambient,15.0,25.0,730,Low,14,500,SUB021,True
+MED167,Metformin,Advil,Antidiabetic,Gastric,20 mg,Injection,IV,vial,100,Refrigerated,2.0,8.0,1095,Low,29,50,SUB005,True
+MED168,Ibuprofen,Advil,Analgesic,Pain Relief,100 mg,Inhaler,Inhalation,inhaler,10,Refrigerated,2.0,8.0,1095,Medium,12,100,SUB006,True
+MED169,Paracetamol,Glucophage,Analgesic,Infection Control,200 mg,Syrup,Oral,bottle,30,Ambient,15.0,25.0,365,Low,27,50,SUB033,True
+MED170,Metformin,Prilosec,Antibiotic,Respiratory,20 mg,Injection,IV,vial,10,Refrigerated,2.0,8.0,1095,Critical,29,50,SUB002,False
+MED171,Metformin,Glucophage,Antidiabetic,Antipyretic,10 mg,Inhaler,Inhalation,inhaler,60,Cold Chain,2.0,8.0,1095,Critical,15,200,SUB013,False
+MED172,Ibuprofen,Amoxil,Antacid,Metabolic,100 mg,Syrup,Oral,bottle,50,Cold Chain,2.0,8.0,365,Low,10,200,SUB005,True
+MED173,Paracetamol,Glucophage,Antidiabetic,Antipyretic,500 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,547,Low,13,50,SUB012,False
+MED174,Omeprazole,Tylenol,Antidiabetic,Antipyretic,200 mg,Syrup,Oral,bottle,60,Refrigerated,2.0,8.0,730,Critical,4,100,SUB034,True
+MED175,Ibuprofen,Advil,Antacid,Pain Relief,250 mg,Syrup,Oral,bottle,100,Ambient,15.0,25.0,730,Critical,30,200,SUB044,True
+MED176,Paracetamol,Glucophage,Analgesic,Cardiovascular,100 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,730,Low,11,200,SUB014,False
+MED177,Metformin,Advil,Antacid,Gastric,10 mg,Injection,IV,vial,30,Cold Chain,2.0,8.0,730,Medium,27,200,SUB021,False
+MED178,Amoxicillin,Tylenol,Antibiotic,Pain Relief,10 mg,Capsule,Oral,capsule,20,Refrigerated,2.0,8.0,547,Critical,2,50,SUB035,True
+MED179,Amoxicillin,Prilosec,Analgesic,Infection Control,20 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,730,High,10,50,SUB018,True
+MED180,Omeprazole,Glucophage,Antidiabetic,Infection Control,500 mg,Tablet,Oral,tablet,20,Ambient,15.0,25.0,1095,Low,7,100,SUB014,True
+MED181,Ibuprofen,Amoxil,Antacid,Antipyretic,500 mg,Capsule,Oral,capsule,20,Cold Chain,2.0,8.0,1095,Medium,17,50,SUB036,False
+MED182,Ibuprofen,Prilosec,Antidiabetic,Respiratory,500 mg,Capsule,Oral,capsule,30,Ambient,15.0,25.0,1095,Medium,3,200,SUB032,True
+MED183,Paracetamol,Amoxil,Antibiotic,Antipyretic,200 mg,Injection,IV,vial,60,Ambient,15.0,25.0,1095,Low,12,500,SUB042,True
+MED184,Omeprazole,Glucophage,Analgesic,Pain Relief,200 mg,Ointment,Topical,tube,50,Refrigerated,2.0,8.0,1095,Low,17,200,SUB017,True
+MED185,Ibuprofen,Prilosec,Antidiabetic,Metabolic,200 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,730,Medium,28,100,SUB039,True
+MED186,Ibuprofen,Prilosec,Analgesic,Cardiovascular,40 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,1095,Low,17,100,SUB034,True
+MED187,Amoxicillin,Advil,Antacid,Infection Control,200 mg,Ointment,Topical,tube,100,Ambient,15.0,25.0,547,High,13,500,SUB028,True
+MED188,Paracetamol,Prilosec,Antidiabetic,Respiratory,40 mg,Capsule,Oral,capsule,100,Cold Chain,2.0,8.0,547,Critical,4,100,SUB010,True
+MED189,Omeprazole,Amoxil,Analgesic,Infection Control,200 mg,Ointment,Topical,tube,100,Cold Chain,2.0,8.0,1095,Low,3,50,SUB029,True
+MED190,Omeprazole,Prilosec,Analgesic,Metabolic,10 mg,Inhaler,Inhalation,inhaler,60,Refrigerated,2.0,8.0,1095,Critical,12,500,SUB012,False
+MED191,Omeprazole,Advil,Analgesic,Infection Control,5 mg/ml,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,547,Medium,13,100,SUB039,True
+MED192,Paracetamol,Advil,Analgesic,Cardiovascular,500 mg,Ointment,Topical,tube,10,Cold Chain,2.0,8.0,365,Medium,9,200,SUB034,True
+MED193,Metformin,Advil,Analgesic,Respiratory,10 mg,Capsule,Oral,capsule,50,Cold Chain,2.0,8.0,730,High,21,50,SUB012,True
+MED194,Metformin,Advil,Antibiotic,Infection Control,100 mg,Tablet,Oral,tablet,20,Cold Chain,2.0,8.0,365,Critical,4,50,SUB030,True
+MED195,Metformin,Advil,Analgesic,Pain Relief,200 mg,Syrup,Oral,bottle,100,Cold Chain,2.0,8.0,730,Medium,3,50,SUB032,False
+MED196,Amoxicillin,Advil,Antidiabetic,Cardiovascular,20 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,365,Critical,9,500,SUB015,True
+MED197,Amoxicillin,Amoxil,Antidiabetic,Gastric,10 mg,Syrup,Oral,bottle,10,Ambient,15.0,25.0,730,Low,14,100,SUB034,True
+MED198,Paracetamol,Amoxil,Antidiabetic,Cardiovascular,250 mg,Inhaler,Inhalation,inhaler,30,Cold Chain,2.0,8.0,365,Medium,10,200,SUB002,False
+MED199,Amoxicillin,Advil,Antidiabetic,Infection Control,5 mg/ml,Ointment,Topical,tube,100,Refrigerated,2.0,8.0,1095,Low,15,500,SUB020,True
+MED200,Omeprazole,Amoxil,Antacid,Respiratory,5 mg/ml,Ointment,Topical,tube,100,Ambient,15.0,25.0,730,High,2,100,SUB001,True
+MED201,Metformin,Prilosec,Antidiabetic,Cardiovascular,5 mg/ml,Capsule,Oral,capsule,50,Ambient,15.0,25.0,730,High,29,100,SUB001,True
+MED202,Amoxicillin,Advil,Antacid,Infection Control,10 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,730,Low,10,100,SUB034,False
+MED203,Metformin,Glucophage,Antacid,Respiratory,5 mg/ml,Tablet,Oral,tablet,20,Refrigerated,2.0,8.0,730,High,27,200,SUB003,False
+MED204,Paracetamol,Prilosec,Antibiotic,Cardiovascular,5 mg/ml,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,1095,Low,15,500,SUB023,True
+MED205,Paracetamol,Tylenol,Antacid,Gastric,100 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,1095,High,21,200,SUB031,True
+MED206,Paracetamol,Advil,Analgesic,Cardiovascular,20 mg,Ointment,Topical,tube,60,Cold Chain,2.0,8.0,730,High,19,50,SUB015,True
+MED207,Amoxicillin,Prilosec,Antidiabetic,Gastric,100 mg,Injection,IV,vial,30,Cold Chain,2.0,8.0,1095,Critical,25,500,SUB014,False
+MED208,Omeprazole,Advil,Antidiabetic,Antipyretic,20 mg,Syrup,Oral,bottle,100,Ambient,15.0,25.0,547,Low,19,100,SUB004,False
+MED209,Amoxicillin,Tylenol,Antibiotic,Infection Control,20 mg,Syrup,Oral,bottle,10,Cold Chain,2.0,8.0,365,Medium,6,50,SUB006,True
+MED210,Amoxicillin,Advil,Antidiabetic,Gastric,10 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,547,Critical,3,100,SUB034,False
+MED211,Amoxicillin,Tylenol,Antacid,Pain Relief,20 mg,Injection,IV,vial,30,Ambient,15.0,25.0,1095,Medium,28,50,SUB043,True
+MED212,Omeprazole,Glucophage,Analgesic,Cardiovascular,200 mg,Tablet,Oral,tablet,20,Cold Chain,2.0,8.0,365,High,15,50,SUB009,True
+MED213,Metformin,Tylenol,Antacid,Pain Relief,100 mg,Tablet,Oral,tablet,60,Refrigerated,2.0,8.0,365,Medium,6,100,SUB028,True
+MED214,Ibuprofen,Advil,Antidiabetic,Cardiovascular,250 mg,Injection,IV,vial,60,Refrigerated,2.0,8.0,1095,Low,17,200,SUB032,True
+MED215,Metformin,Amoxil,Antacid,Pain Relief,100 mg,Tablet,Oral,tablet,10,Refrigerated,2.0,8.0,730,Low,30,100,SUB047,False
+MED216,Omeprazole,Advil,Antidiabetic,Antipyretic,5 mg/ml,Injection,IV,vial,50,Cold Chain,2.0,8.0,730,High,23,100,SUB011,False
+MED217,Metformin,Glucophage,Antacid,Respiratory,100 mg,Inhaler,Inhalation,inhaler,20,Ambient,15.0,25.0,1095,Critical,12,500,SUB014,True
+MED218,Amoxicillin,Tylenol,Antidiabetic,Respiratory,200 mg,Injection,IV,vial,50,Ambient,15.0,25.0,1095,Medium,7,50,SUB009,True
+MED219,Metformin,Amoxil,Antacid,Pain Relief,100 mg,Ointment,Topical,tube,100,Ambient,15.0,25.0,365,Critical,8,200,SUB029,True
+MED220,Paracetamol,Glucophage,Analgesic,Cardiovascular,500 mg,Ointment,Topical,tube,50,Ambient,15.0,25.0,365,Critical,21,50,SUB040,False
+MED221,Metformin,Amoxil,Antibiotic,Infection Control,250 mg,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,730,Medium,5,200,SUB013,True
+MED222,Amoxicillin,Advil,Antidiabetic,Gastric,20 mg,Tablet,Oral,tablet,100,Cold Chain,2.0,8.0,365,Critical,19,50,SUB013,True
+MED223,Ibuprofen,Glucophage,Antibiotic,Pain Relief,250 mg,Injection,IV,vial,30,Cold Chain,2.0,8.0,1095,Critical,11,100,SUB005,True
+MED224,Metformin,Advil,Antidiabetic,Metabolic,250 mg,Syrup,Oral,bottle,10,Cold Chain,2.0,8.0,1095,Medium,27,500,SUB041,False
+MED225,Metformin,Tylenol,Antidiabetic,Respiratory,40 mg,Tablet,Oral,tablet,30,Cold Chain,2.0,8.0,365,Critical,12,100,SUB018,False
+MED226,Paracetamol,Tylenol,Antidiabetic,Metabolic,10 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,547,Critical,2,50,SUB015,True
+MED227,Ibuprofen,Tylenol,Analgesic,Cardiovascular,200 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,1095,Medium,7,100,SUB024,False
+MED228,Metformin,Prilosec,Antacid,Gastric,100 mg,Inhaler,Inhalation,inhaler,30,Cold Chain,2.0,8.0,365,High,16,50,SUB021,True
+MED229,Omeprazole,Advil,Antibiotic,Metabolic,5 mg/ml,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,1095,High,19,200,SUB031,True
+MED230,Ibuprofen,Amoxil,Antibiotic,Pain Relief,20 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,365,High,27,100,SUB014,False
+MED231,Amoxicillin,Glucophage,Antibiotic,Metabolic,100 mg,Capsule,Oral,capsule,20,Cold Chain,2.0,8.0,1095,Medium,20,500,SUB037,False
+MED232,Ibuprofen,Amoxil,Analgesic,Antipyretic,250 mg,Capsule,Oral,capsule,30,Ambient,15.0,25.0,730,Low,30,50,SUB010,True
+MED233,Omeprazole,Tylenol,Analgesic,Metabolic,100 mg,Capsule,Oral,capsule,30,Cold Chain,2.0,8.0,1095,High,14,500,SUB042,False
+MED234,Metformin,Tylenol,Antibiotic,Metabolic,100 mg,Syrup,Oral,bottle,20,Ambient,15.0,25.0,1095,High,12,500,SUB020,False
+MED235,Metformin,Amoxil,Analgesic,Pain Relief,5 mg/ml,Injection,IV,vial,20,Refrigerated,2.0,8.0,1095,Low,26,50,SUB041,True
+MED236,Omeprazole,Advil,Antibiotic,Cardiovascular,250 mg,Tablet,Oral,tablet,20,Cold Chain,2.0,8.0,547,Critical,30,500,SUB040,True
+MED237,Ibuprofen,Prilosec,Antidiabetic,Metabolic,100 mg,Injection,IV,vial,20,Ambient,15.0,25.0,730,Critical,5,100,SUB046,True
+MED238,Ibuprofen,Advil,Antacid,Metabolic,10 mg,Capsule,Oral,capsule,50,Refrigerated,2.0,8.0,730,Critical,6,500,SUB036,True
+MED239,Ibuprofen,Tylenol,Antibiotic,Pain Relief,100 mg,Ointment,Topical,tube,10,Refrigerated,2.0,8.0,365,Medium,27,500,SUB050,True
+MED240,Metformin,Glucophage,Antacid,Gastric,20 mg,Injection,IV,vial,100,Refrigerated,2.0,8.0,730,Low,22,500,SUB036,True
+MED241,Ibuprofen,Amoxil,Antidiabetic,Cardiovascular,20 mg,Tablet,Oral,tablet,50,Refrigerated,2.0,8.0,365,High,30,50,SUB037,True
+MED242,Metformin,Advil,Antibiotic,Gastric,5 mg/ml,Injection,IV,vial,30,Ambient,15.0,25.0,547,High,5,100,SUB014,False
+MED243,Metformin,Advil,Analgesic,Respiratory,20 mg,Ointment,Topical,tube,30,Cold Chain,2.0,8.0,365,Critical,8,50,SUB021,True
+MED244,Metformin,Amoxil,Antibiotic,Antipyretic,40 mg,Ointment,Topical,tube,10,Ambient,15.0,25.0,365,Critical,2,100,SUB031,True
+MED245,Paracetamol,Tylenol,Antibiotic,Pain Relief,500 mg,Injection,IV,vial,20,Ambient,15.0,25.0,730,Critical,19,500,SUB004,True
+MED246,Ibuprofen,Tylenol,Antacid,Gastric,500 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,365,Low,23,500,SUB025,True
+MED247,Paracetamol,Amoxil,Antibiotic,Antipyretic,200 mg,Inhaler,Inhalation,inhaler,60,Refrigerated,2.0,8.0,730,Medium,12,100,SUB015,True
+MED248,Amoxicillin,Glucophage,Antidiabetic,Metabolic,20 mg,Ointment,Topical,tube,50,Refrigerated,2.0,8.0,547,Medium,2,50,SUB017,True
+MED249,Amoxicillin,Amoxil,Antidiabetic,Respiratory,200 mg,Ointment,Topical,tube,100,Cold Chain,2.0,8.0,730,Critical,24,200,SUB049,True
+MED250,Amoxicillin,Amoxil,Antibiotic,Metabolic,500 mg,Syrup,Oral,bottle,100,Refrigerated,2.0,8.0,365,Low,6,200,SUB010,True
+MED251,Ibuprofen,Prilosec,Antacid,Infection Control,500 mg,Syrup,Oral,bottle,10,Cold Chain,2.0,8.0,547,Critical,2,50,SUB021,True
+MED252,Ibuprofen,Tylenol,Antacid,Respiratory,10 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,1095,Critical,17,100,SUB012,True
+MED253,Ibuprofen,Glucophage,Antibiotic,Infection Control,5 mg/ml,Injection,IV,vial,50,Ambient,15.0,25.0,365,Low,12,500,SUB028,True
+MED254,Amoxicillin,Advil,Antidiabetic,Cardiovascular,200 mg,Capsule,Oral,capsule,50,Cold Chain,2.0,8.0,1095,Medium,6,100,SUB024,True
+MED255,Metformin,Glucophage,Antidiabetic,Respiratory,10 mg,Inhaler,Inhalation,inhaler,100,Cold Chain,2.0,8.0,1095,High,12,100,SUB036,False
+MED256,Omeprazole,Glucophage,Antacid,Antipyretic,500 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,365,Medium,22,200,SUB002,False
+MED257,Paracetamol,Tylenol,Analgesic,Metabolic,10 mg,Syrup,Oral,bottle,10,Refrigerated,2.0,8.0,547,Low,3,200,SUB049,True
+MED258,Omeprazole,Amoxil,Antacid,Metabolic,20 mg,Injection,IV,vial,50,Ambient,15.0,25.0,1095,Medium,25,100,SUB003,True
+MED259,Metformin,Glucophage,Antacid,Respiratory,10 mg,Injection,IV,vial,50,Refrigerated,2.0,8.0,547,High,26,100,SUB046,True
+MED260,Paracetamol,Glucophage,Antacid,Pain Relief,20 mg,Tablet,Oral,tablet,30,Refrigerated,2.0,8.0,1095,Low,8,200,SUB008,True
+MED261,Ibuprofen,Prilosec,Antacid,Gastric,10 mg,Inhaler,Inhalation,inhaler,50,Refrigerated,2.0,8.0,1095,Critical,27,200,SUB041,True
+MED262,Amoxicillin,Prilosec,Antacid,Antipyretic,500 mg,Syrup,Oral,bottle,50,Cold Chain,2.0,8.0,1095,Low,23,50,SUB016,False
+MED263,Omeprazole,Amoxil,Antacid,Cardiovascular,40 mg,Injection,IV,vial,100,Cold Chain,2.0,8.0,730,Critical,2,200,SUB030,True
+MED264,Metformin,Tylenol,Antacid,Infection Control,500 mg,Injection,IV,vial,10,Ambient,15.0,25.0,1095,High,13,200,SUB032,True
+MED265,Amoxicillin,Glucophage,Analgesic,Gastric,20 mg,Injection,IV,vial,50,Ambient,15.0,25.0,365,High,25,500,SUB001,True
+MED266,Amoxicillin,Tylenol,Analgesic,Respiratory,40 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,730,High,20,200,SUB010,True
+MED267,Paracetamol,Advil,Antidiabetic,Pain Relief,10 mg,Syrup,Oral,bottle,20,Ambient,15.0,25.0,1095,Medium,13,100,SUB036,False
+MED268,Amoxicillin,Prilosec,Antibiotic,Gastric,5 mg/ml,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,365,High,30,200,SUB038,True
+MED269,Amoxicillin,Glucophage,Antibiotic,Pain Relief,250 mg,Capsule,Oral,capsule,20,Ambient,15.0,25.0,547,High,12,500,SUB032,False
+MED270,Metformin,Amoxil,Antacid,Gastric,40 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,365,Medium,18,100,SUB004,True
+MED271,Paracetamol,Amoxil,Analgesic,Gastric,250 mg,Ointment,Topical,tube,50,Ambient,15.0,25.0,547,Critical,28,100,SUB017,False
+MED272,Omeprazole,Advil,Antacid,Gastric,5 mg/ml,Inhaler,Inhalation,inhaler,50,Ambient,15.0,25.0,1095,Medium,20,50,SUB044,True
+MED273,Metformin,Glucophage,Antidiabetic,Cardiovascular,200 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,1095,High,30,200,SUB016,True
+MED274,Metformin,Amoxil,Analgesic,Infection Control,5 mg/ml,Ointment,Topical,tube,30,Refrigerated,2.0,8.0,365,High,10,200,SUB048,False
+MED275,Omeprazole,Glucophage,Analgesic,Antipyretic,250 mg,Tablet,Oral,tablet,60,Refrigerated,2.0,8.0,547,Medium,2,50,SUB047,True
+MED276,Ibuprofen,Prilosec,Analgesic,Metabolic,250 mg,Inhaler,Inhalation,inhaler,20,Ambient,15.0,25.0,547,Critical,23,200,SUB033,True
+MED277,Metformin,Tylenol,Antacid,Metabolic,250 mg,Ointment,Topical,tube,30,Ambient,15.0,25.0,1095,Low,21,200,SUB018,True
+MED278,Amoxicillin,Glucophage,Antibiotic,Gastric,5 mg/ml,Capsule,Oral,capsule,50,Cold Chain,2.0,8.0,1095,Critical,28,200,SUB009,True
+MED279,Amoxicillin,Glucophage,Antidiabetic,Respiratory,20 mg,Tablet,Oral,tablet,50,Cold Chain,2.0,8.0,365,High,18,200,SUB042,True
+MED280,Paracetamol,Prilosec,Antibiotic,Metabolic,20 mg,Ointment,Topical,tube,100,Refrigerated,2.0,8.0,365,Critical,21,200,SUB031,True
+MED281,Omeprazole,Glucophage,Antibiotic,Antipyretic,5 mg/ml,Syrup,Oral,bottle,60,Ambient,15.0,25.0,547,Medium,9,500,SUB033,True
+MED282,Paracetamol,Tylenol,Analgesic,Cardiovascular,200 mg,Injection,IV,vial,30,Cold Chain,2.0,8.0,730,High,6,50,SUB036,True
+MED283,Paracetamol,Tylenol,Antacid,Respiratory,100 mg,Ointment,Topical,tube,10,Cold Chain,2.0,8.0,730,Medium,23,500,SUB019,True
+MED284,Omeprazole,Tylenol,Analgesic,Respiratory,10 mg,Inhaler,Inhalation,inhaler,20,Cold Chain,2.0,8.0,365,Medium,22,50,SUB039,True
+MED285,Paracetamol,Glucophage,Analgesic,Pain Relief,40 mg,Capsule,Oral,capsule,10,Ambient,15.0,25.0,365,Low,9,50,SUB043,False
+MED286,Ibuprofen,Amoxil,Antibiotic,Infection Control,500 mg,Syrup,Oral,bottle,20,Cold Chain,2.0,8.0,365,Low,25,50,SUB039,True
+MED287,Omeprazole,Amoxil,Antacid,Gastric,100 mg,Capsule,Oral,capsule,50,Cold Chain,2.0,8.0,730,Critical,25,50,SUB007,True
+MED288,Paracetamol,Prilosec,Antidiabetic,Metabolic,10 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,1095,Critical,7,50,SUB031,True
+MED289,Amoxicillin,Advil,Antidiabetic,Pain Relief,200 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,365,Medium,24,200,SUB002,False
+MED290,Amoxicillin,Advil,Analgesic,Pain Relief,250 mg,Injection,IV,vial,20,Cold Chain,2.0,8.0,547,Medium,28,500,SUB010,True
+MED291,Amoxicillin,Glucophage,Antacid,Respiratory,20 mg,Injection,IV,vial,30,Refrigerated,2.0,8.0,730,Medium,11,50,SUB029,True
+MED292,Amoxicillin,Advil,Analgesic,Cardiovascular,250 mg,Injection,IV,vial,100,Ambient,15.0,25.0,365,High,14,200,SUB021,True
+MED293,Ibuprofen,Prilosec,Analgesic,Antipyretic,500 mg,Ointment,Topical,tube,10,Refrigerated,2.0,8.0,1095,Critical,16,50,SUB044,False
+MED294,Omeprazole,Advil,Antidiabetic,Pain Relief,5 mg/ml,Ointment,Topical,tube,100,Refrigerated,2.0,8.0,1095,Medium,8,50,SUB004,True
+MED295,Metformin,Amoxil,Antidiabetic,Pain Relief,40 mg,Ointment,Topical,tube,30,Refrigerated,2.0,8.0,1095,Critical,9,50,SUB025,True
+MED296,Paracetamol,Prilosec,Analgesic,Cardiovascular,5 mg/ml,Inhaler,Inhalation,inhaler,20,Ambient,15.0,25.0,365,Critical,24,100,SUB010,True
+MED297,Metformin,Tylenol,Antidiabetic,Cardiovascular,20 mg,Capsule,Oral,capsule,100,Ambient,15.0,25.0,730,Critical,30,50,SUB047,True
+MED298,Ibuprofen,Prilosec,Antidiabetic,Gastric,20 mg,Tablet,Oral,tablet,30,Refrigerated,2.0,8.0,547,High,16,200,SUB001,True
+MED299,Amoxicillin,Prilosec,Antacid,Cardiovascular,200 mg,Inhaler,Inhalation,inhaler,30,Refrigerated,2.0,8.0,730,Critical,8,500,SUB017,False
+MED300,Paracetamol,Amoxil,Antidiabetic,Gastric,200 mg,Ointment,Topical,tube,20,Cold Chain,2.0,8.0,547,Medium,21,200,SUB017,False
+MED301,Omeprazole,Glucophage,Analgesic,Cardiovascular,250 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,730,Low,27,100,SUB006,True
+MED302,Paracetamol,Advil,Antacid,Gastric,5 mg/ml,Capsule,Oral,capsule,30,Cold Chain,2.0,8.0,730,Medium,10,50,SUB040,True
+MED303,Metformin,Tylenol,Antidiabetic,Respiratory,100 mg,Tablet,Oral,tablet,30,Refrigerated,2.0,8.0,730,Medium,30,50,SUB009,True
+MED304,Metformin,Tylenol,Analgesic,Gastric,20 mg,Injection,IV,vial,20,Cold Chain,2.0,8.0,365,Medium,27,500,SUB032,False
+MED305,Metformin,Advil,Antibiotic,Metabolic,500 mg,Syrup,Oral,bottle,20,Ambient,15.0,25.0,1095,Low,15,100,SUB021,True
+MED306,Omeprazole,Glucophage,Antacid,Metabolic,200 mg,Syrup,Oral,bottle,10,Ambient,15.0,25.0,730,Low,16,100,SUB023,True
+MED307,Metformin,Tylenol,Antibiotic,Antipyretic,100 mg,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,1095,Medium,8,100,SUB045,True
+MED308,Paracetamol,Prilosec,Analgesic,Gastric,200 mg,Syrup,Oral,bottle,20,Cold Chain,2.0,8.0,730,Critical,21,200,SUB024,True
+MED309,Omeprazole,Amoxil,Analgesic,Gastric,20 mg,Injection,IV,vial,60,Cold Chain,2.0,8.0,365,Critical,4,500,SUB041,True
+MED310,Metformin,Amoxil,Antacid,Pain Relief,5 mg/ml,Injection,IV,vial,50,Ambient,15.0,25.0,365,High,10,500,SUB005,True
+MED311,Metformin,Glucophage,Antidiabetic,Metabolic,100 mg,Inhaler,Inhalation,inhaler,50,Ambient,15.0,25.0,1095,Low,9,100,SUB048,True
+MED312,Metformin,Prilosec,Antidiabetic,Pain Relief,100 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,547,Medium,24,100,SUB019,False
+MED313,Paracetamol,Prilosec,Antidiabetic,Gastric,5 mg/ml,Inhaler,Inhalation,inhaler,100,Cold Chain,2.0,8.0,547,Low,4,100,SUB048,True
+MED314,Omeprazole,Glucophage,Analgesic,Metabolic,200 mg,Capsule,Oral,capsule,20,Cold Chain,2.0,8.0,1095,Critical,12,50,SUB015,True
+MED315,Amoxicillin,Prilosec,Antidiabetic,Cardiovascular,500 mg,Tablet,Oral,tablet,10,Ambient,15.0,25.0,1095,High,6,500,SUB033,True
+MED316,Omeprazole,Advil,Antibiotic,Pain Relief,5 mg/ml,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,1095,High,18,50,SUB045,True
+MED317,Amoxicillin,Glucophage,Antibiotic,Metabolic,20 mg,Injection,IV,vial,60,Ambient,15.0,25.0,365,High,15,50,SUB011,True
+MED318,Ibuprofen,Tylenol,Antacid,Cardiovascular,20 mg,Injection,IV,vial,10,Cold Chain,2.0,8.0,365,High,19,500,SUB021,True
+MED319,Amoxicillin,Prilosec,Antidiabetic,Cardiovascular,250 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,547,Low,16,100,SUB008,True
+MED320,Ibuprofen,Prilosec,Antacid,Gastric,20 mg,Injection,IV,vial,10,Refrigerated,2.0,8.0,547,Medium,2,50,SUB050,True
+MED321,Paracetamol,Tylenol,Antacid,Cardiovascular,100 mg,Syrup,Oral,bottle,10,Cold Chain,2.0,8.0,730,Critical,3,200,SUB011,True
+MED322,Omeprazole,Prilosec,Antidiabetic,Pain Relief,40 mg,Injection,IV,vial,60,Refrigerated,2.0,8.0,1095,Medium,3,200,SUB010,True
+MED323,Omeprazole,Amoxil,Antacid,Infection Control,20 mg,Tablet,Oral,tablet,60,Refrigerated,2.0,8.0,365,Critical,21,200,SUB023,False
+MED324,Ibuprofen,Advil,Antacid,Pain Relief,10 mg,Capsule,Oral,capsule,50,Ambient,15.0,25.0,730,Low,22,100,SUB040,False
+MED325,Metformin,Tylenol,Analgesic,Cardiovascular,20 mg,Ointment,Topical,tube,20,Refrigerated,2.0,8.0,1095,Medium,22,200,SUB024,True
+MED326,Ibuprofen,Glucophage,Antidiabetic,Antipyretic,200 mg,Tablet,Oral,tablet,20,Cold Chain,2.0,8.0,1095,Critical,13,50,SUB001,True
+MED327,Amoxicillin,Glucophage,Antidiabetic,Gastric,100 mg,Inhaler,Inhalation,inhaler,50,Refrigerated,2.0,8.0,730,Low,19,200,SUB040,False
+MED328,Paracetamol,Prilosec,Antibiotic,Metabolic,5 mg/ml,Capsule,Oral,capsule,50,Refrigerated,2.0,8.0,1095,High,12,500,SUB035,True
+MED329,Omeprazole,Prilosec,Antidiabetic,Infection Control,20 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,365,Medium,12,500,SUB014,False
+MED330,Omeprazole,Glucophage,Antacid,Cardiovascular,20 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,365,Low,14,200,SUB040,True
+MED331,Ibuprofen,Advil,Antacid,Cardiovascular,100 mg,Ointment,Topical,tube,10,Refrigerated,2.0,8.0,1095,Medium,5,500,SUB023,True
+MED332,Ibuprofen,Amoxil,Antidiabetic,Metabolic,200 mg,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,547,Critical,22,50,SUB014,True
+MED333,Metformin,Glucophage,Analgesic,Infection Control,40 mg,Ointment,Topical,tube,30,Ambient,15.0,25.0,365,Low,27,50,SUB050,True
+MED334,Metformin,Glucophage,Antibiotic,Infection Control,40 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,547,High,16,100,SUB043,True
+MED335,Paracetamol,Prilosec,Antacid,Antipyretic,5 mg/ml,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,547,Medium,24,100,SUB007,True
+MED336,Metformin,Glucophage,Antacid,Pain Relief,100 mg,Tablet,Oral,tablet,10,Refrigerated,2.0,8.0,730,High,26,50,SUB041,True
+MED337,Amoxicillin,Amoxil,Antacid,Metabolic,5 mg/ml,Syrup,Oral,bottle,20,Cold Chain,2.0,8.0,547,Medium,30,50,SUB042,True
+MED338,Metformin,Advil,Antacid,Infection Control,500 mg,Injection,IV,vial,100,Ambient,15.0,25.0,1095,High,10,200,SUB021,True
+MED339,Paracetamol,Advil,Analgesic,Infection Control,500 mg,Ointment,Topical,tube,50,Refrigerated,2.0,8.0,1095,Critical,24,200,SUB033,True
+MED340,Paracetamol,Advil,Analgesic,Gastric,20 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,547,Medium,29,500,SUB040,True
+MED341,Amoxicillin,Glucophage,Antacid,Cardiovascular,500 mg,Capsule,Oral,capsule,30,Refrigerated,2.0,8.0,1095,High,30,100,SUB041,False
+MED342,Amoxicillin,Amoxil,Antidiabetic,Gastric,200 mg,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,730,High,14,100,SUB022,False
+MED343,Amoxicillin,Glucophage,Analgesic,Antipyretic,200 mg,Injection,IV,vial,10,Cold Chain,2.0,8.0,547,High,30,500,SUB025,True
+MED344,Omeprazole,Glucophage,Antidiabetic,Cardiovascular,5 mg/ml,Syrup,Oral,bottle,10,Cold Chain,2.0,8.0,1095,Critical,13,50,SUB015,True
+MED345,Amoxicillin,Tylenol,Antidiabetic,Antipyretic,10 mg,Syrup,Oral,bottle,10,Refrigerated,2.0,8.0,730,Low,15,500,SUB047,True
+MED346,Omeprazole,Tylenol,Antibiotic,Gastric,200 mg,Tablet,Oral,tablet,10,Ambient,15.0,25.0,365,Low,27,500,SUB024,True
+MED347,Paracetamol,Prilosec,Antibiotic,Pain Relief,10 mg,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,365,Low,30,100,SUB024,True
+MED348,Metformin,Tylenol,Antibiotic,Antipyretic,20 mg,Inhaler,Inhalation,inhaler,50,Refrigerated,2.0,8.0,1095,Critical,20,200,SUB049,True
+MED349,Amoxicillin,Tylenol,Antidiabetic,Antipyretic,500 mg,Syrup,Oral,bottle,50,Refrigerated,2.0,8.0,547,Medium,29,200,SUB035,True
+MED350,Metformin,Tylenol,Analgesic,Metabolic,5 mg/ml,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,1095,Critical,29,100,SUB035,False
+MED351,Amoxicillin,Tylenol,Analgesic,Cardiovascular,100 mg,Inhaler,Inhalation,inhaler,10,Refrigerated,2.0,8.0,1095,Medium,15,50,SUB020,True
+MED352,Paracetamol,Prilosec,Antidiabetic,Respiratory,10 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,547,Medium,19,50,SUB026,True
+MED353,Amoxicillin,Prilosec,Antacid,Gastric,100 mg,Injection,IV,vial,10,Refrigerated,2.0,8.0,365,High,22,50,SUB040,True
+MED354,Paracetamol,Advil,Antidiabetic,Pain Relief,500 mg,Capsule,Oral,capsule,50,Ambient,15.0,25.0,730,High,29,500,SUB048,True
+MED355,Ibuprofen,Advil,Antidiabetic,Metabolic,100 mg,Capsule,Oral,capsule,20,Refrigerated,2.0,8.0,547,Medium,11,200,SUB005,True
+MED356,Omeprazole,Prilosec,Antidiabetic,Metabolic,250 mg,Injection,IV,vial,50,Cold Chain,2.0,8.0,730,High,29,500,SUB048,True
+MED357,Metformin,Glucophage,Antacid,Pain Relief,100 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,365,High,30,200,SUB048,True
+MED358,Ibuprofen,Advil,Antibiotic,Metabolic,20 mg,Capsule,Oral,capsule,100,Refrigerated,2.0,8.0,730,Medium,17,50,SUB016,False
+MED359,Omeprazole,Amoxil,Antibiotic,Infection Control,5 mg/ml,Inhaler,Inhalation,inhaler,30,Cold Chain,2.0,8.0,547,High,5,100,SUB009,False
+MED360,Metformin,Glucophage,Antidiabetic,Gastric,10 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,1095,High,5,200,SUB023,False
+MED361,Ibuprofen,Advil,Antibiotic,Gastric,40 mg,Tablet,Oral,tablet,60,Ambient,15.0,25.0,730,High,26,100,SUB019,True
+MED362,Ibuprofen,Glucophage,Antibiotic,Gastric,20 mg,Capsule,Oral,capsule,30,Refrigerated,2.0,8.0,365,Critical,28,100,SUB018,True
+MED363,Omeprazole,Amoxil,Antidiabetic,Respiratory,200 mg,Tablet,Oral,tablet,60,Cold Chain,2.0,8.0,1095,Critical,2,50,SUB016,True
+MED364,Paracetamol,Advil,Antacid,Antipyretic,5 mg/ml,Ointment,Topical,tube,60,Ambient,15.0,25.0,547,High,16,100,SUB037,False
+MED365,Metformin,Advil,Antidiabetic,Pain Relief,100 mg,Tablet,Oral,tablet,10,Ambient,15.0,25.0,365,Medium,15,200,SUB030,True
+MED366,Metformin,Amoxil,Antacid,Metabolic,10 mg,Inhaler,Inhalation,inhaler,50,Ambient,15.0,25.0,547,Critical,5,500,SUB015,False
+MED367,Metformin,Advil,Antidiabetic,Gastric,200 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,730,Low,13,50,SUB004,True
+MED368,Omeprazole,Glucophage,Analgesic,Metabolic,200 mg,Ointment,Topical,tube,50,Cold Chain,2.0,8.0,365,Low,13,50,SUB046,True
+MED369,Amoxicillin,Tylenol,Analgesic,Metabolic,5 mg/ml,Inhaler,Inhalation,inhaler,20,Refrigerated,2.0,8.0,1095,Critical,3,50,SUB010,True
+MED370,Ibuprofen,Glucophage,Antacid,Gastric,100 mg,Inhaler,Inhalation,inhaler,50,Cold Chain,2.0,8.0,365,Medium,9,50,SUB002,True
+MED371,Amoxicillin,Glucophage,Antibiotic,Pain Relief,100 mg,Capsule,Oral,capsule,10,Refrigerated,2.0,8.0,730,Low,9,50,SUB029,True
+MED372,Amoxicillin,Glucophage,Antibiotic,Respiratory,5 mg/ml,Injection,IV,vial,50,Cold Chain,2.0,8.0,1095,Low,23,100,SUB036,False
+MED373,Omeprazole,Advil,Antidiabetic,Infection Control,250 mg,Ointment,Topical,tube,30,Cold Chain,2.0,8.0,1095,Critical,4,200,SUB016,True
+MED374,Ibuprofen,Glucophage,Antibiotic,Gastric,200 mg,Tablet,Oral,tablet,50,Ambient,15.0,25.0,1095,High,12,200,SUB020,True
+MED375,Amoxicillin,Tylenol,Antacid,Metabolic,40 mg,Injection,IV,vial,60,Cold Chain,2.0,8.0,547,High,4,500,SUB025,True
+MED376,Metformin,Prilosec,Antibiotic,Gastric,5 mg/ml,Tablet,Oral,tablet,100,Ambient,15.0,25.0,547,Medium,18,200,SUB004,True
+MED377,Amoxicillin,Advil,Antacid,Gastric,500 mg,Ointment,Topical,tube,60,Ambient,15.0,25.0,730,Medium,9,500,SUB012,True
+MED378,Metformin,Tylenol,Antidiabetic,Pain Relief,250 mg,Capsule,Oral,capsule,20,Cold Chain,2.0,8.0,365,Low,30,50,SUB006,True
+MED379,Ibuprofen,Amoxil,Antacid,Cardiovascular,100 mg,Ointment,Topical,tube,10,Cold Chain,2.0,8.0,730,Low,2,200,SUB020,False
+MED380,Omeprazole,Glucophage,Antacid,Gastric,5 mg/ml,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,1095,High,26,200,SUB044,True
+MED381,Omeprazole,Advil,Antacid,Respiratory,500 mg,Syrup,Oral,bottle,50,Cold Chain,2.0,8.0,547,Low,29,100,SUB019,True
+MED382,Ibuprofen,Prilosec,Antidiabetic,Respiratory,40 mg,Ointment,Topical,tube,60,Cold Chain,2.0,8.0,547,Medium,11,500,SUB048,False
+MED383,Metformin,Prilosec,Antidiabetic,Respiratory,40 mg,Tablet,Oral,tablet,30,Cold Chain,2.0,8.0,1095,Medium,27,500,SUB044,True
+MED384,Paracetamol,Tylenol,Analgesic,Respiratory,40 mg,Injection,IV,vial,20,Cold Chain,2.0,8.0,365,Critical,2,200,SUB032,True
+MED385,Omeprazole,Amoxil,Antidiabetic,Respiratory,20 mg,Tablet,Oral,tablet,60,Ambient,15.0,25.0,547,Low,27,100,SUB023,False
+MED386,Ibuprofen,Amoxil,Antacid,Respiratory,200 mg,Inhaler,Inhalation,inhaler,30,Refrigerated,2.0,8.0,1095,Low,8,200,SUB009,False
+MED387,Metformin,Amoxil,Antidiabetic,Metabolic,10 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,1095,Low,24,500,SUB031,False
+MED388,Amoxicillin,Glucophage,Antidiabetic,Respiratory,20 mg,Inhaler,Inhalation,inhaler,60,Cold Chain,2.0,8.0,547,Medium,10,50,SUB047,True
+MED389,Paracetamol,Amoxil,Antidiabetic,Metabolic,100 mg,Tablet,Oral,tablet,10,Ambient,15.0,25.0,547,Medium,10,500,SUB042,True
+MED390,Amoxicillin,Glucophage,Antidiabetic,Infection Control,200 mg,Capsule,Oral,capsule,50,Cold Chain,2.0,8.0,547,Low,11,500,SUB041,True
+MED391,Metformin,Tylenol,Analgesic,Pain Relief,40 mg,Syrup,Oral,bottle,30,Ambient,15.0,25.0,365,High,3,200,SUB049,True
+MED392,Ibuprofen,Advil,Antidiabetic,Infection Control,100 mg,Inhaler,Inhalation,inhaler,50,Refrigerated,2.0,8.0,730,Critical,25,200,SUB029,False
+MED393,Omeprazole,Prilosec,Antidiabetic,Cardiovascular,250 mg,Injection,IV,vial,100,Ambient,15.0,25.0,547,High,8,100,SUB022,False
+MED394,Omeprazole,Advil,Antibiotic,Gastric,40 mg,Ointment,Topical,tube,20,Cold Chain,2.0,8.0,547,Low,23,200,SUB001,False
+MED395,Omeprazole,Advil,Antacid,Pain Relief,20 mg,Inhaler,Inhalation,inhaler,60,Refrigerated,2.0,8.0,547,Low,20,200,SUB046,False
+MED396,Paracetamol,Tylenol,Antidiabetic,Metabolic,200 mg,Syrup,Oral,bottle,50,Cold Chain,2.0,8.0,365,Low,22,50,SUB030,True
+MED397,Ibuprofen,Glucophage,Antibiotic,Metabolic,5 mg/ml,Tablet,Oral,tablet,50,Refrigerated,2.0,8.0,730,Critical,6,500,SUB017,True
+MED398,Ibuprofen,Glucophage,Analgesic,Respiratory,250 mg,Ointment,Topical,tube,60,Cold Chain,2.0,8.0,547,Critical,19,50,SUB040,True
+MED399,Omeprazole,Glucophage,Antidiabetic,Gastric,40 mg,Injection,IV,vial,10,Ambient,15.0,25.0,1095,Low,22,50,SUB026,False
+MED400,Amoxicillin,Glucophage,Antidiabetic,Pain Relief,250 mg,Inhaler,Inhalation,inhaler,50,Cold Chain,2.0,8.0,547,Medium,17,100,SUB041,True
+MED401,Paracetamol,Tylenol,Antidiabetic,Pain Relief,200 mg,Ointment,Topical,tube,100,Ambient,15.0,25.0,1095,Critical,22,50,SUB001,False
+MED402,Paracetamol,Glucophage,Antacid,Antipyretic,20 mg,Ointment,Topical,tube,50,Ambient,15.0,25.0,365,Critical,23,200,SUB042,True
+MED403,Ibuprofen,Tylenol,Antibiotic,Respiratory,5 mg/ml,Inhaler,Inhalation,inhaler,50,Ambient,15.0,25.0,365,Medium,7,100,SUB046,True
+MED404,Ibuprofen,Amoxil,Antacid,Antipyretic,500 mg,Tablet,Oral,tablet,10,Refrigerated,2.0,8.0,1095,Critical,15,50,SUB015,True
+MED405,Paracetamol,Amoxil,Analgesic,Metabolic,40 mg,Capsule,Oral,capsule,50,Ambient,15.0,25.0,1095,Low,18,50,SUB012,True
+MED406,Ibuprofen,Tylenol,Analgesic,Respiratory,500 mg,Injection,IV,vial,20,Refrigerated,2.0,8.0,730,High,4,500,SUB042,True
+MED407,Paracetamol,Prilosec,Antibiotic,Antipyretic,10 mg,Ointment,Topical,tube,100,Ambient,15.0,25.0,547,High,19,50,SUB011,False
+MED408,Omeprazole,Amoxil,Antacid,Antipyretic,500 mg,Injection,IV,vial,50,Refrigerated,2.0,8.0,1095,Low,19,200,SUB005,True
+MED409,Paracetamol,Prilosec,Antidiabetic,Cardiovascular,100 mg,Inhaler,Inhalation,inhaler,60,Ambient,15.0,25.0,1095,High,12,200,SUB002,False
+MED410,Ibuprofen,Prilosec,Antidiabetic,Infection Control,200 mg,Capsule,Oral,capsule,30,Refrigerated,2.0,8.0,730,High,22,500,SUB010,False
+MED411,Omeprazole,Glucophage,Analgesic,Metabolic,200 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,365,High,23,50,SUB013,False
+MED412,Omeprazole,Glucophage,Antacid,Pain Relief,100 mg,Capsule,Oral,capsule,30,Cold Chain,2.0,8.0,547,High,20,50,SUB012,False
+MED413,Metformin,Glucophage,Antidiabetic,Infection Control,40 mg,Syrup,Oral,bottle,20,Refrigerated,2.0,8.0,547,High,18,50,SUB010,True
+MED414,Amoxicillin,Glucophage,Antidiabetic,Metabolic,5 mg/ml,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,730,High,18,500,SUB037,True
+MED415,Metformin,Tylenol,Antibiotic,Metabolic,5 mg/ml,Inhaler,Inhalation,inhaler,30,Refrigerated,2.0,8.0,365,Low,20,50,SUB026,True
+MED416,Paracetamol,Prilosec,Antacid,Antipyretic,40 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,547,Low,16,200,SUB040,False
+MED417,Omeprazole,Glucophage,Antacid,Metabolic,500 mg,Syrup,Oral,bottle,100,Ambient,15.0,25.0,730,High,9,200,SUB037,False
+MED418,Amoxicillin,Prilosec,Antibiotic,Pain Relief,5 mg/ml,Tablet,Oral,tablet,30,Refrigerated,2.0,8.0,365,High,23,50,SUB019,False
+MED419,Ibuprofen,Glucophage,Antacid,Metabolic,40 mg,Injection,IV,vial,10,Cold Chain,2.0,8.0,1095,Critical,20,100,SUB008,True
+MED420,Ibuprofen,Glucophage,Antidiabetic,Antipyretic,250 mg,Ointment,Topical,tube,20,Ambient,15.0,25.0,730,Low,2,50,SUB035,False
+MED421,Ibuprofen,Tylenol,Analgesic,Metabolic,500 mg,Injection,IV,vial,50,Ambient,15.0,25.0,730,Medium,19,50,SUB016,True
+MED422,Omeprazole,Prilosec,Antacid,Pain Relief,10 mg,Injection,IV,vial,100,Ambient,15.0,25.0,1095,Low,21,200,SUB022,True
+MED423,Ibuprofen,Prilosec,Antibiotic,Infection Control,500 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,547,Critical,10,500,SUB049,True
+MED424,Ibuprofen,Tylenol,Analgesic,Antipyretic,10 mg,Inhaler,Inhalation,inhaler,50,Cold Chain,2.0,8.0,365,Critical,2,100,SUB021,True
+MED425,Ibuprofen,Amoxil,Analgesic,Metabolic,500 mg,Syrup,Oral,bottle,60,Refrigerated,2.0,8.0,365,High,28,100,SUB009,True
+MED426,Ibuprofen,Amoxil,Antibiotic,Cardiovascular,10 mg,Capsule,Oral,capsule,10,Ambient,15.0,25.0,547,Critical,28,200,SUB017,True
+MED427,Paracetamol,Advil,Antidiabetic,Gastric,500 mg,Ointment,Topical,tube,60,Refrigerated,2.0,8.0,1095,Medium,23,200,SUB039,True
+MED428,Metformin,Tylenol,Antidiabetic,Respiratory,40 mg,Tablet,Oral,tablet,50,Cold Chain,2.0,8.0,1095,Critical,16,100,SUB038,True
+MED429,Paracetamol,Advil,Antacid,Cardiovascular,250 mg,Inhaler,Inhalation,inhaler,100,Refrigerated,2.0,8.0,1095,Low,16,100,SUB011,True
+MED430,Amoxicillin,Amoxil,Antidiabetic,Respiratory,200 mg,Injection,IV,vial,20,Refrigerated,2.0,8.0,365,Critical,13,100,SUB049,True
+MED431,Ibuprofen,Tylenol,Antacid,Pain Relief,500 mg,Injection,IV,vial,100,Cold Chain,2.0,8.0,730,Critical,12,50,SUB046,True
+MED432,Omeprazole,Amoxil,Antidiabetic,Respiratory,20 mg,Inhaler,Inhalation,inhaler,50,Refrigerated,2.0,8.0,365,Critical,7,500,SUB046,True
+MED433,Ibuprofen,Advil,Antibiotic,Cardiovascular,500 mg,Inhaler,Inhalation,inhaler,30,Refrigerated,2.0,8.0,730,High,17,100,SUB036,False
+MED434,Metformin,Glucophage,Antidiabetic,Gastric,20 mg,Tablet,Oral,tablet,10,Ambient,15.0,25.0,1095,Medium,23,200,SUB011,True
+MED435,Amoxicillin,Prilosec,Antidiabetic,Respiratory,500 mg,Syrup,Oral,bottle,60,Cold Chain,2.0,8.0,365,Low,23,200,SUB048,True
+MED436,Amoxicillin,Glucophage,Antacid,Respiratory,5 mg/ml,Ointment,Topical,tube,100,Cold Chain,2.0,8.0,547,High,29,50,SUB046,True
+MED437,Ibuprofen,Glucophage,Antibiotic,Cardiovascular,20 mg,Capsule,Oral,capsule,20,Ambient,15.0,25.0,1095,High,15,200,SUB020,True
+MED438,Amoxicillin,Tylenol,Analgesic,Pain Relief,10 mg,Ointment,Topical,tube,100,Ambient,15.0,25.0,730,Critical,9,50,SUB033,True
+MED439,Ibuprofen,Tylenol,Antidiabetic,Metabolic,5 mg/ml,Syrup,Oral,bottle,60,Ambient,15.0,25.0,365,Critical,27,200,SUB040,False
+MED440,Omeprazole,Amoxil,Antibiotic,Pain Relief,500 mg,Capsule,Oral,capsule,20,Ambient,15.0,25.0,547,Low,20,100,SUB035,True
+MED441,Paracetamol,Glucophage,Antibiotic,Cardiovascular,100 mg,Syrup,Oral,bottle,60,Refrigerated,2.0,8.0,365,Low,19,100,SUB048,False
+MED442,Paracetamol,Glucophage,Antacid,Pain Relief,250 mg,Injection,IV,vial,50,Ambient,15.0,25.0,365,Low,30,200,SUB028,True
+MED443,Paracetamol,Glucophage,Antibiotic,Infection Control,100 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,730,High,11,200,SUB005,False
+MED444,Omeprazole,Tylenol,Antacid,Antipyretic,40 mg,Inhaler,Inhalation,inhaler,60,Ambient,15.0,25.0,1095,Low,16,200,SUB034,True
+MED445,Metformin,Glucophage,Analgesic,Infection Control,250 mg,Inhaler,Inhalation,inhaler,10,Ambient,15.0,25.0,365,Medium,28,200,SUB005,False
+MED446,Paracetamol,Prilosec,Antibiotic,Metabolic,10 mg,Syrup,Oral,bottle,20,Ambient,15.0,25.0,365,Low,28,200,SUB041,False
+MED447,Omeprazole,Prilosec,Antibiotic,Cardiovascular,100 mg,Injection,IV,vial,20,Ambient,15.0,25.0,547,Low,3,500,SUB025,False
+MED448,Paracetamol,Prilosec,Antacid,Infection Control,20 mg,Injection,IV,vial,60,Ambient,15.0,25.0,730,Medium,6,50,SUB014,True
+MED449,Omeprazole,Amoxil,Antacid,Infection Control,500 mg,Capsule,Oral,capsule,60,Cold Chain,2.0,8.0,365,Medium,14,500,SUB031,False
+MED450,Amoxicillin,Tylenol,Antacid,Respiratory,200 mg,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,1095,High,18,100,SUB030,False
+MED451,Paracetamol,Advil,Antidiabetic,Infection Control,100 mg,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,547,High,5,100,SUB019,True
+MED452,Metformin,Advil,Antibiotic,Infection Control,10 mg,Syrup,Oral,bottle,30,Cold Chain,2.0,8.0,365,High,8,50,SUB010,True
+MED453,Metformin,Advil,Antidiabetic,Infection Control,10 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,365,Low,9,500,SUB028,True
+MED454,Ibuprofen,Prilosec,Antacid,Antipyretic,250 mg,Capsule,Oral,capsule,20,Refrigerated,2.0,8.0,730,High,16,200,SUB010,True
+MED455,Ibuprofen,Prilosec,Antidiabetic,Gastric,200 mg,Inhaler,Inhalation,inhaler,10,Refrigerated,2.0,8.0,365,Critical,16,200,SUB011,False
+MED456,Amoxicillin,Prilosec,Antibiotic,Infection Control,5 mg/ml,Capsule,Oral,capsule,50,Ambient,15.0,25.0,1095,Medium,13,50,SUB032,True
+MED457,Ibuprofen,Tylenol,Antidiabetic,Cardiovascular,5 mg/ml,Inhaler,Inhalation,inhaler,50,Refrigerated,2.0,8.0,1095,Low,16,50,SUB031,True
+MED458,Metformin,Tylenol,Antidiabetic,Gastric,100 mg,Injection,IV,vial,30,Ambient,15.0,25.0,730,High,23,50,SUB041,True
+MED459,Amoxicillin,Glucophage,Antacid,Gastric,100 mg,Capsule,Oral,capsule,30,Ambient,15.0,25.0,365,Medium,7,500,SUB046,False
+MED460,Paracetamol,Amoxil,Antibiotic,Infection Control,10 mg,Ointment,Topical,tube,20,Ambient,15.0,25.0,1095,Critical,9,50,SUB045,True
+MED461,Omeprazole,Glucophage,Analgesic,Antipyretic,250 mg,Inhaler,Inhalation,inhaler,60,Cold Chain,2.0,8.0,365,Low,4,100,SUB049,True
+MED462,Paracetamol,Glucophage,Antibiotic,Cardiovascular,20 mg,Injection,IV,vial,60,Ambient,15.0,25.0,730,Critical,11,100,SUB005,True
+MED463,Paracetamol,Glucophage,Antidiabetic,Pain Relief,100 mg,Injection,IV,vial,100,Cold Chain,2.0,8.0,730,Low,26,100,SUB043,False
+MED464,Metformin,Tylenol,Antacid,Antipyretic,100 mg,Inhaler,Inhalation,inhaler,60,Cold Chain,2.0,8.0,547,Critical,23,500,SUB040,True
+MED465,Metformin,Tylenol,Analgesic,Antipyretic,200 mg,Tablet,Oral,tablet,100,Cold Chain,2.0,8.0,1095,Critical,6,50,SUB003,True
+MED466,Paracetamol,Glucophage,Antidiabetic,Gastric,5 mg/ml,Capsule,Oral,capsule,60,Refrigerated,2.0,8.0,547,Low,12,50,SUB036,True
+MED467,Metformin,Glucophage,Analgesic,Gastric,5 mg/ml,Capsule,Oral,capsule,30,Cold Chain,2.0,8.0,365,Low,26,100,SUB016,True
+MED468,Amoxicillin,Amoxil,Antibiotic,Respiratory,5 mg/ml,Inhaler,Inhalation,inhaler,100,Cold Chain,2.0,8.0,365,Low,14,50,SUB027,True
+MED469,Ibuprofen,Prilosec,Analgesic,Antipyretic,20 mg,Tablet,Oral,tablet,20,Ambient,15.0,25.0,547,Medium,21,200,SUB013,True
+MED470,Amoxicillin,Amoxil,Antacid,Cardiovascular,500 mg,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,365,Low,14,200,SUB042,True
+MED471,Ibuprofen,Glucophage,Antacid,Pain Relief,20 mg,Capsule,Oral,capsule,100,Cold Chain,2.0,8.0,730,Medium,11,500,SUB014,True
+MED472,Amoxicillin,Tylenol,Antacid,Pain Relief,10 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,730,Critical,7,100,SUB007,True
+MED473,Amoxicillin,Prilosec,Antibiotic,Cardiovascular,250 mg,Ointment,Topical,tube,20,Refrigerated,2.0,8.0,1095,High,25,500,SUB033,True
+MED474,Paracetamol,Tylenol,Analgesic,Gastric,10 mg,Injection,IV,vial,30,Refrigerated,2.0,8.0,547,Medium,16,50,SUB029,True
+MED475,Metformin,Amoxil,Antidiabetic,Gastric,200 mg,Syrup,Oral,bottle,20,Cold Chain,2.0,8.0,1095,Critical,10,500,SUB011,False
+MED476,Paracetamol,Glucophage,Antidiabetic,Pain Relief,10 mg,Ointment,Topical,tube,30,Ambient,15.0,25.0,547,Critical,11,500,SUB005,True
+MED477,Ibuprofen,Prilosec,Antacid,Respiratory,100 mg,Ointment,Topical,tube,10,Refrigerated,2.0,8.0,730,Low,27,200,SUB035,True
+MED478,Amoxicillin,Advil,Antacid,Infection Control,500 mg,Inhaler,Inhalation,inhaler,60,Ambient,15.0,25.0,547,Medium,18,50,SUB008,True
+MED479,Omeprazole,Advil,Antidiabetic,Cardiovascular,10 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,1095,Medium,29,100,SUB007,True
+MED480,Omeprazole,Advil,Analgesic,Respiratory,250 mg,Tablet,Oral,tablet,10,Cold Chain,2.0,8.0,547,Critical,26,100,SUB024,True
+MED481,Omeprazole,Amoxil,Antidiabetic,Metabolic,20 mg,Injection,IV,vial,60,Refrigerated,2.0,8.0,730,High,3,100,SUB030,True
+MED482,Omeprazole,Amoxil,Analgesic,Antipyretic,5 mg/ml,Injection,IV,vial,60,Ambient,15.0,25.0,1095,Low,3,100,SUB024,True
+MED483,Ibuprofen,Advil,Analgesic,Gastric,200 mg,Capsule,Oral,capsule,20,Ambient,15.0,25.0,365,Low,30,50,SUB027,True
+MED484,Amoxicillin,Prilosec,Antidiabetic,Infection Control,20 mg,Capsule,Oral,capsule,100,Ambient,15.0,25.0,730,Critical,4,200,SUB025,True
+MED485,Metformin,Glucophage,Antibiotic,Metabolic,5 mg/ml,Injection,IV,vial,60,Cold Chain,2.0,8.0,730,Critical,16,200,SUB044,True
+MED486,Paracetamol,Advil,Antacid,Cardiovascular,20 mg,Ointment,Topical,tube,10,Cold Chain,2.0,8.0,1095,Low,28,200,SUB026,True
+MED487,Ibuprofen,Advil,Antacid,Metabolic,100 mg,Syrup,Oral,bottle,60,Cold Chain,2.0,8.0,365,Critical,3,50,SUB001,False
+MED488,Paracetamol,Prilosec,Antibiotic,Respiratory,500 mg,Ointment,Topical,tube,20,Refrigerated,2.0,8.0,730,Low,21,200,SUB043,True
+MED489,Metformin,Tylenol,Antidiabetic,Antipyretic,250 mg,Injection,IV,vial,20,Ambient,15.0,25.0,547,High,4,100,SUB020,False
+MED490,Paracetamol,Amoxil,Antacid,Gastric,250 mg,Injection,IV,vial,50,Refrigerated,2.0,8.0,730,Low,8,100,SUB008,True
+MED491,Ibuprofen,Prilosec,Antacid,Respiratory,250 mg,Ointment,Topical,tube,50,Ambient,15.0,25.0,730,Medium,2,50,SUB047,True
+MED492,Omeprazole,Advil,Antidiabetic,Infection Control,100 mg,Inhaler,Inhalation,inhaler,60,Cold Chain,2.0,8.0,365,Critical,13,500,SUB003,True
+MED493,Paracetamol,Glucophage,Antacid,Cardiovascular,200 mg,Capsule,Oral,capsule,30,Cold Chain,2.0,8.0,547,Low,20,500,SUB026,False
+MED494,Metformin,Amoxil,Antidiabetic,Metabolic,500 mg,Inhaler,Inhalation,inhaler,60,Ambient,15.0,25.0,1095,Medium,10,500,SUB027,False
+MED495,Paracetamol,Prilosec,Antibiotic,Metabolic,200 mg,Ointment,Topical,tube,30,Ambient,15.0,25.0,1095,Medium,17,200,SUB046,True
+MED496,Amoxicillin,Prilosec,Analgesic,Gastric,100 mg,Ointment,Topical,tube,30,Refrigerated,2.0,8.0,365,Medium,24,200,SUB050,True
+MED497,Paracetamol,Advil,Antidiabetic,Pain Relief,500 mg,Capsule,Oral,capsule,10,Cold Chain,2.0,8.0,1095,High,4,50,SUB003,True
+MED498,Omeprazole,Glucophage,Analgesic,Gastric,40 mg,Syrup,Oral,bottle,30,Refrigerated,2.0,8.0,547,Medium,27,200,SUB020,True
+MED499,Omeprazole,Advil,Antibiotic,Infection Control,10 mg,Tablet,Oral,tablet,20,Ambient,15.0,25.0,365,Low,19,500,SUB023,True
+MED500,Ibuprofen,Prilosec,Analgesic,Infection Control,250 mg,Tablet,Oral,tablet,20,Cold Chain,2.0,8.0,547,Critical,3,500,SUB029,True

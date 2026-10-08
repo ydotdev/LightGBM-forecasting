@@ -1,0 +1,301 @@
+date,hospital_id,medicine_id,generic_name,quantity_requested,quantity_dispensed,target_type,source,source_medicine_id,outbreak_flag,lead_time_days
+2026-09-24,HOSP_A,PGMED001,Amoxicillin,65,,requested_demand,shortage,MED002,0,6
+2026-09-25,HOSP_A,PGMED001,Amoxicillin,95,,requested_demand,shortage,MED002,0,6
+2026-09-26,HOSP_A,PGMED001,Amoxicillin,71,,requested_demand,shortage,MED002,0,6
+2026-09-27,HOSP_A,PGMED001,Amoxicillin,66,,requested_demand,shortage,MED002,0,6
+2026-09-28,HOSP_A,PGMED001,Amoxicillin,83,,requested_demand,shortage,MED002,0,6
+2026-09-29,HOSP_A,PGMED001,Amoxicillin,76,,requested_demand,shortage,MED002,0,6
+2026-09-30,HOSP_A,PGMED001,Amoxicillin,95,,requested_demand,shortage,MED002,0,6
+2026-10-01,HOSP_A,PGMED001,Amoxicillin,78,,requested_demand,shortage,MED002,0,6
+2026-10-02,HOSP_A,PGMED001,Amoxicillin,91,,requested_demand,shortage,MED002,0,6
+2026-10-03,HOSP_A,PGMED001,Amoxicillin,85,,requested_demand,shortage,MED002,0,6
+2026-10-04,HOSP_A,PGMED001,Amoxicillin,312,,requested_demand,shortage,MED002,1,6
+2026-10-05,HOSP_A,PGMED001,Amoxicillin,242,,requested_demand,shortage,MED002,1,6
+2026-10-06,HOSP_A,PGMED001,Amoxicillin,390,,requested_demand,shortage,MED002,1,6
+2026-10-07,HOSP_A,PGMED001,Amoxicillin,330,,requested_demand,shortage,MED002,1,6
+2026-10-08,HOSP_A,PGMED001,Amoxicillin,301,,requested_demand,shortage,MED002,1,6
+2026-09-24,HOSP_A,PGMED002,Atorvastatin,70,,requested_demand,shortage,MED005,0,5
+2026-09-25,HOSP_A,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-09-26,HOSP_A,PGMED002,Atorvastatin,69,,requested_demand,shortage,MED005,0,5
+2026-09-27,HOSP_A,PGMED002,Atorvastatin,68,,requested_demand,shortage,MED005,0,5
+2026-09-28,HOSP_A,PGMED002,Atorvastatin,58,,requested_demand,shortage,MED005,0,5
+2026-09-29,HOSP_A,PGMED002,Atorvastatin,50,,requested_demand,shortage,MED005,0,5
+2026-09-30,HOSP_A,PGMED002,Atorvastatin,56,,requested_demand,shortage,MED005,0,5
+2026-10-01,HOSP_A,PGMED002,Atorvastatin,64,,requested_demand,shortage,MED005,0,5
+2026-10-02,HOSP_A,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-10-03,HOSP_A,PGMED002,Atorvastatin,62,,requested_demand,shortage,MED005,0,5
+2026-10-04,HOSP_A,PGMED002,Atorvastatin,54,,requested_demand,shortage,MED005,0,5
+2026-10-05,HOSP_A,PGMED002,Atorvastatin,61,,requested_demand,shortage,MED005,0,5
+2026-10-06,HOSP_A,PGMED002,Atorvastatin,57,,requested_demand,shortage,MED005,0,5
+2026-10-07,HOSP_A,PGMED002,Atorvastatin,71,,requested_demand,shortage,MED005,0,5
+2026-10-08,HOSP_A,PGMED002,Atorvastatin,68,,requested_demand,shortage,MED005,0,5
+2026-09-24,HOSP_A,PGMED003,Normal Saline IV,227,,requested_demand,shortage,MED004,0,3
+2026-09-25,HOSP_A,PGMED003,Normal Saline IV,219,,requested_demand,shortage,MED004,0,3
+2026-09-26,HOSP_A,PGMED003,Normal Saline IV,203,,requested_demand,shortage,MED004,0,3
+2026-09-27,HOSP_A,PGMED003,Normal Saline IV,206,,requested_demand,shortage,MED004,0,3
+2026-09-28,HOSP_A,PGMED003,Normal Saline IV,237,,requested_demand,shortage,MED004,0,3
+2026-09-29,HOSP_A,PGMED003,Normal Saline IV,208,,requested_demand,shortage,MED004,0,3
+2026-09-30,HOSP_A,PGMED003,Normal Saline IV,182,,requested_demand,shortage,MED004,0,3
+2026-10-01,HOSP_A,PGMED003,Normal Saline IV,183,,requested_demand,shortage,MED004,0,3
+2026-10-02,HOSP_A,PGMED003,Normal Saline IV,173,,requested_demand,shortage,MED004,0,3
+2026-10-03,HOSP_A,PGMED003,Normal Saline IV,161,,requested_demand,shortage,MED004,0,3
+2026-10-04,HOSP_A,PGMED003,Normal Saline IV,769,,requested_demand,shortage,MED004,1,3
+2026-10-05,HOSP_A,PGMED003,Normal Saline IV,757,,requested_demand,shortage,MED004,1,3
+2026-10-06,HOSP_A,PGMED003,Normal Saline IV,717,,requested_demand,shortage,MED004,1,3
+2026-10-07,HOSP_A,PGMED003,Normal Saline IV,605,,requested_demand,shortage,MED004,1,3
+2026-10-08,HOSP_A,PGMED003,Normal Saline IV,679,,requested_demand,shortage,MED004,1,3
+2026-09-24,HOSP_A,PGMED004,Paracetamol,124,,requested_demand,shortage,MED001,0,4
+2026-09-25,HOSP_A,PGMED004,Paracetamol,103,,requested_demand,shortage,MED001,0,4
+2026-09-26,HOSP_A,PGMED004,Paracetamol,103,,requested_demand,shortage,MED001,0,4
+2026-09-27,HOSP_A,PGMED004,Paracetamol,98,,requested_demand,shortage,MED001,0,4
+2026-09-28,HOSP_A,PGMED004,Paracetamol,137,,requested_demand,shortage,MED001,0,4
+2026-09-29,HOSP_A,PGMED004,Paracetamol,124,,requested_demand,shortage,MED001,0,4
+2026-09-30,HOSP_A,PGMED004,Paracetamol,129,,requested_demand,shortage,MED001,0,4
+2026-10-01,HOSP_A,PGMED004,Paracetamol,96,,requested_demand,shortage,MED001,0,4
+2026-10-02,HOSP_A,PGMED004,Paracetamol,142,,requested_demand,shortage,MED001,0,4
+2026-10-03,HOSP_A,PGMED004,Paracetamol,135,,requested_demand,shortage,MED001,0,4
+2026-10-04,HOSP_A,PGMED004,Paracetamol,410,,requested_demand,shortage,MED001,1,4
+2026-10-05,HOSP_A,PGMED004,Paracetamol,403,,requested_demand,shortage,MED001,1,4
+2026-10-06,HOSP_A,PGMED004,Paracetamol,404,,requested_demand,shortage,MED001,1,4
+2026-10-07,HOSP_A,PGMED004,Paracetamol,433,,requested_demand,shortage,MED001,1,4
+2026-10-08,HOSP_A,PGMED004,Paracetamol,485,,requested_demand,shortage,MED001,1,4
+2026-09-24,HOSP_A,PGMED005,Salbutamol,42,,requested_demand,shortage,MED003,0,7
+2026-09-25,HOSP_A,PGMED005,Salbutamol,41,,requested_demand,shortage,MED003,0,7
+2026-09-26,HOSP_A,PGMED005,Salbutamol,45,,requested_demand,shortage,MED003,0,7
+2026-09-27,HOSP_A,PGMED005,Salbutamol,34,,requested_demand,shortage,MED003,0,7
+2026-09-28,HOSP_A,PGMED005,Salbutamol,38,,requested_demand,shortage,MED003,0,7
+2026-09-29,HOSP_A,PGMED005,Salbutamol,34,,requested_demand,shortage,MED003,0,7
+2026-09-30,HOSP_A,PGMED005,Salbutamol,44,,requested_demand,shortage,MED003,0,7
+2026-10-01,HOSP_A,PGMED005,Salbutamol,38,,requested_demand,shortage,MED003,0,7
+2026-10-02,HOSP_A,PGMED005,Salbutamol,35,,requested_demand,shortage,MED003,0,7
+2026-10-03,HOSP_A,PGMED005,Salbutamol,41,,requested_demand,shortage,MED003,0,7
+2026-10-04,HOSP_A,PGMED005,Salbutamol,122,,requested_demand,shortage,MED003,1,7
+2026-10-05,HOSP_A,PGMED005,Salbutamol,187,,requested_demand,shortage,MED003,1,7
+2026-10-06,HOSP_A,PGMED005,Salbutamol,155,,requested_demand,shortage,MED003,1,7
+2026-10-07,HOSP_A,PGMED005,Salbutamol,151,,requested_demand,shortage,MED003,1,7
+2026-10-08,HOSP_A,PGMED005,Salbutamol,194,,requested_demand,shortage,MED003,1,7
+2026-09-24,HOSP_B,PGMED001,Amoxicillin,67,,requested_demand,shortage,MED002,0,6
+2026-09-25,HOSP_B,PGMED001,Amoxicillin,78,,requested_demand,shortage,MED002,0,6
+2026-09-26,HOSP_B,PGMED001,Amoxicillin,70,,requested_demand,shortage,MED002,0,6
+2026-09-27,HOSP_B,PGMED001,Amoxicillin,77,,requested_demand,shortage,MED002,0,6
+2026-09-28,HOSP_B,PGMED001,Amoxicillin,92,,requested_demand,shortage,MED002,0,6
+2026-09-29,HOSP_B,PGMED001,Amoxicillin,74,,requested_demand,shortage,MED002,0,6
+2026-09-30,HOSP_B,PGMED001,Amoxicillin,67,,requested_demand,shortage,MED002,0,6
+2026-10-01,HOSP_B,PGMED001,Amoxicillin,75,,requested_demand,shortage,MED002,0,6
+2026-10-02,HOSP_B,PGMED001,Amoxicillin,93,,requested_demand,shortage,MED002,0,6
+2026-10-03,HOSP_B,PGMED001,Amoxicillin,72,,requested_demand,shortage,MED002,0,6
+2026-10-04,HOSP_B,PGMED001,Amoxicillin,343,,requested_demand,shortage,MED002,1,6
+2026-10-05,HOSP_B,PGMED001,Amoxicillin,240,,requested_demand,shortage,MED002,1,6
+2026-10-06,HOSP_B,PGMED001,Amoxicillin,296,,requested_demand,shortage,MED002,1,6
+2026-10-07,HOSP_B,PGMED001,Amoxicillin,288,,requested_demand,shortage,MED002,1,6
+2026-10-08,HOSP_B,PGMED001,Amoxicillin,266,,requested_demand,shortage,MED002,1,6
+2026-09-24,HOSP_B,PGMED002,Atorvastatin,62,,requested_demand,shortage,MED005,0,5
+2026-09-25,HOSP_B,PGMED002,Atorvastatin,64,,requested_demand,shortage,MED005,0,5
+2026-09-26,HOSP_B,PGMED002,Atorvastatin,48,,requested_demand,shortage,MED005,0,5
+2026-09-27,HOSP_B,PGMED002,Atorvastatin,60,,requested_demand,shortage,MED005,0,5
+2026-09-28,HOSP_B,PGMED002,Atorvastatin,53,,requested_demand,shortage,MED005,0,5
+2026-09-29,HOSP_B,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-09-30,HOSP_B,PGMED002,Atorvastatin,52,,requested_demand,shortage,MED005,0,5
+2026-10-01,HOSP_B,PGMED002,Atorvastatin,64,,requested_demand,shortage,MED005,0,5
+2026-10-02,HOSP_B,PGMED002,Atorvastatin,57,,requested_demand,shortage,MED005,0,5
+2026-10-03,HOSP_B,PGMED002,Atorvastatin,70,,requested_demand,shortage,MED005,0,5
+2026-10-04,HOSP_B,PGMED002,Atorvastatin,51,,requested_demand,shortage,MED005,0,5
+2026-10-05,HOSP_B,PGMED002,Atorvastatin,56,,requested_demand,shortage,MED005,0,5
+2026-10-06,HOSP_B,PGMED002,Atorvastatin,50,,requested_demand,shortage,MED005,0,5
+2026-10-07,HOSP_B,PGMED002,Atorvastatin,70,,requested_demand,shortage,MED005,0,5
+2026-10-08,HOSP_B,PGMED002,Atorvastatin,69,,requested_demand,shortage,MED005,0,5
+2026-09-24,HOSP_B,PGMED003,Normal Saline IV,179,,requested_demand,shortage,MED004,0,3
+2026-09-25,HOSP_B,PGMED003,Normal Saline IV,171,,requested_demand,shortage,MED004,0,3
+2026-09-26,HOSP_B,PGMED003,Normal Saline IV,199,,requested_demand,shortage,MED004,0,3
+2026-09-27,HOSP_B,PGMED003,Normal Saline IV,238,,requested_demand,shortage,MED004,0,3
+2026-09-28,HOSP_B,PGMED003,Normal Saline IV,179,,requested_demand,shortage,MED004,0,3
+2026-09-29,HOSP_B,PGMED003,Normal Saline IV,213,,requested_demand,shortage,MED004,0,3
+2026-09-30,HOSP_B,PGMED003,Normal Saline IV,220,,requested_demand,shortage,MED004,0,3
+2026-10-01,HOSP_B,PGMED003,Normal Saline IV,179,,requested_demand,shortage,MED004,0,3
+2026-10-02,HOSP_B,PGMED003,Normal Saline IV,218,,requested_demand,shortage,MED004,0,3
+2026-10-03,HOSP_B,PGMED003,Normal Saline IV,189,,requested_demand,shortage,MED004,0,3
+2026-10-04,HOSP_B,PGMED003,Normal Saline IV,852,,requested_demand,shortage,MED004,1,3
+2026-10-05,HOSP_B,PGMED003,Normal Saline IV,853,,requested_demand,shortage,MED004,1,3
+2026-10-06,HOSP_B,PGMED003,Normal Saline IV,814,,requested_demand,shortage,MED004,1,3
+2026-10-07,HOSP_B,PGMED003,Normal Saline IV,636,,requested_demand,shortage,MED004,1,3
+2026-10-08,HOSP_B,PGMED003,Normal Saline IV,934,,requested_demand,shortage,MED004,1,3
+2026-09-24,HOSP_B,PGMED004,Paracetamol,130,,requested_demand,shortage,MED001,0,4
+2026-09-25,HOSP_B,PGMED004,Paracetamol,101,,requested_demand,shortage,MED001,0,4
+2026-09-26,HOSP_B,PGMED004,Paracetamol,117,,requested_demand,shortage,MED001,0,4
+2026-09-27,HOSP_B,PGMED004,Paracetamol,105,,requested_demand,shortage,MED001,0,4
+2026-09-28,HOSP_B,PGMED004,Paracetamol,138,,requested_demand,shortage,MED001,0,4
+2026-09-29,HOSP_B,PGMED004,Paracetamol,118,,requested_demand,shortage,MED001,0,4
+2026-09-30,HOSP_B,PGMED004,Paracetamol,123,,requested_demand,shortage,MED001,0,4
+2026-10-01,HOSP_B,PGMED004,Paracetamol,129,,requested_demand,shortage,MED001,0,4
+2026-10-02,HOSP_B,PGMED004,Paracetamol,102,,requested_demand,shortage,MED001,0,4
+2026-10-03,HOSP_B,PGMED004,Paracetamol,125,,requested_demand,shortage,MED001,0,4
+2026-10-04,HOSP_B,PGMED004,Paracetamol,489,,requested_demand,shortage,MED001,1,4
+2026-10-05,HOSP_B,PGMED004,Paracetamol,408,,requested_demand,shortage,MED001,1,4
+2026-10-06,HOSP_B,PGMED004,Paracetamol,586,,requested_demand,shortage,MED001,1,4
+2026-10-07,HOSP_B,PGMED004,Paracetamol,503,,requested_demand,shortage,MED001,1,4
+2026-10-08,HOSP_B,PGMED004,Paracetamol,526,,requested_demand,shortage,MED001,1,4
+2026-09-24,HOSP_B,PGMED005,Salbutamol,36,,requested_demand,shortage,MED003,0,7
+2026-09-25,HOSP_B,PGMED005,Salbutamol,35,,requested_demand,shortage,MED003,0,7
+2026-09-26,HOSP_B,PGMED005,Salbutamol,34,,requested_demand,shortage,MED003,0,7
+2026-09-27,HOSP_B,PGMED005,Salbutamol,35,,requested_demand,shortage,MED003,0,7
+2026-09-28,HOSP_B,PGMED005,Salbutamol,40,,requested_demand,shortage,MED003,0,7
+2026-09-29,HOSP_B,PGMED005,Salbutamol,38,,requested_demand,shortage,MED003,0,7
+2026-09-30,HOSP_B,PGMED005,Salbutamol,33,,requested_demand,shortage,MED003,0,7
+2026-10-01,HOSP_B,PGMED005,Salbutamol,36,,requested_demand,shortage,MED003,0,7
+2026-10-02,HOSP_B,PGMED005,Salbutamol,35,,requested_demand,shortage,MED003,0,7
+2026-10-03,HOSP_B,PGMED005,Salbutamol,43,,requested_demand,shortage,MED003,0,7
+2026-10-04,HOSP_B,PGMED005,Salbutamol,176,,requested_demand,shortage,MED003,1,7
+2026-10-05,HOSP_B,PGMED005,Salbutamol,131,,requested_demand,shortage,MED003,1,7
+2026-10-06,HOSP_B,PGMED005,Salbutamol,199,,requested_demand,shortage,MED003,1,7
+2026-10-07,HOSP_B,PGMED005,Salbutamol,141,,requested_demand,shortage,MED003,1,7
+2026-10-08,HOSP_B,PGMED005,Salbutamol,198,,requested_demand,shortage,MED003,1,7
+2026-09-24,HOSP_C,PGMED001,Amoxicillin,95,,requested_demand,shortage,MED002,0,6
+2026-09-25,HOSP_C,PGMED001,Amoxicillin,73,,requested_demand,shortage,MED002,0,6
+2026-09-26,HOSP_C,PGMED001,Amoxicillin,73,,requested_demand,shortage,MED002,0,6
+2026-09-27,HOSP_C,PGMED001,Amoxicillin,79,,requested_demand,shortage,MED002,0,6
+2026-09-28,HOSP_C,PGMED001,Amoxicillin,78,,requested_demand,shortage,MED002,0,6
+2026-09-29,HOSP_C,PGMED001,Amoxicillin,95,,requested_demand,shortage,MED002,0,6
+2026-09-30,HOSP_C,PGMED001,Amoxicillin,69,,requested_demand,shortage,MED002,0,6
+2026-10-01,HOSP_C,PGMED001,Amoxicillin,64,,requested_demand,shortage,MED002,0,6
+2026-10-02,HOSP_C,PGMED001,Amoxicillin,79,,requested_demand,shortage,MED002,0,6
+2026-10-03,HOSP_C,PGMED001,Amoxicillin,69,,requested_demand,shortage,MED002,0,6
+2026-10-04,HOSP_C,PGMED001,Amoxicillin,75,,requested_demand,shortage,MED002,0,6
+2026-10-05,HOSP_C,PGMED001,Amoxicillin,87,,requested_demand,shortage,MED002,0,6
+2026-10-06,HOSP_C,PGMED001,Amoxicillin,87,,requested_demand,shortage,MED002,0,6
+2026-10-07,HOSP_C,PGMED001,Amoxicillin,73,,requested_demand,shortage,MED002,0,6
+2026-10-08,HOSP_C,PGMED001,Amoxicillin,81,,requested_demand,shortage,MED002,0,6
+2026-09-24,HOSP_C,PGMED002,Atorvastatin,60,,requested_demand,shortage,MED005,0,5
+2026-09-25,HOSP_C,PGMED002,Atorvastatin,69,,requested_demand,shortage,MED005,0,5
+2026-09-26,HOSP_C,PGMED002,Atorvastatin,65,,requested_demand,shortage,MED005,0,5
+2026-09-27,HOSP_C,PGMED002,Atorvastatin,64,,requested_demand,shortage,MED005,0,5
+2026-09-28,HOSP_C,PGMED002,Atorvastatin,64,,requested_demand,shortage,MED005,0,5
+2026-09-29,HOSP_C,PGMED002,Atorvastatin,56,,requested_demand,shortage,MED005,0,5
+2026-09-30,HOSP_C,PGMED002,Atorvastatin,55,,requested_demand,shortage,MED005,0,5
+2026-10-01,HOSP_C,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-10-02,HOSP_C,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-10-03,HOSP_C,PGMED002,Atorvastatin,68,,requested_demand,shortage,MED005,0,5
+2026-10-04,HOSP_C,PGMED002,Atorvastatin,69,,requested_demand,shortage,MED005,0,5
+2026-10-05,HOSP_C,PGMED002,Atorvastatin,60,,requested_demand,shortage,MED005,0,5
+2026-10-06,HOSP_C,PGMED002,Atorvastatin,60,,requested_demand,shortage,MED005,0,5
+2026-10-07,HOSP_C,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-10-08,HOSP_C,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-09-24,HOSP_C,PGMED003,Normal Saline IV,234,,requested_demand,shortage,MED004,0,3
+2026-09-25,HOSP_C,PGMED003,Normal Saline IV,194,,requested_demand,shortage,MED004,0,3
+2026-09-26,HOSP_C,PGMED003,Normal Saline IV,237,,requested_demand,shortage,MED004,0,3
+2026-09-27,HOSP_C,PGMED003,Normal Saline IV,237,,requested_demand,shortage,MED004,0,3
+2026-09-28,HOSP_C,PGMED003,Normal Saline IV,228,,requested_demand,shortage,MED004,0,3
+2026-09-29,HOSP_C,PGMED003,Normal Saline IV,183,,requested_demand,shortage,MED004,0,3
+2026-09-30,HOSP_C,PGMED003,Normal Saline IV,190,,requested_demand,shortage,MED004,0,3
+2026-10-01,HOSP_C,PGMED003,Normal Saline IV,228,,requested_demand,shortage,MED004,0,3
+2026-10-02,HOSP_C,PGMED003,Normal Saline IV,185,,requested_demand,shortage,MED004,0,3
+2026-10-03,HOSP_C,PGMED003,Normal Saline IV,173,,requested_demand,shortage,MED004,0,3
+2026-10-04,HOSP_C,PGMED003,Normal Saline IV,204,,requested_demand,shortage,MED004,0,3
+2026-10-05,HOSP_C,PGMED003,Normal Saline IV,234,,requested_demand,shortage,MED004,0,3
+2026-10-06,HOSP_C,PGMED003,Normal Saline IV,215,,requested_demand,shortage,MED004,0,3
+2026-10-07,HOSP_C,PGMED003,Normal Saline IV,205,,requested_demand,shortage,MED004,0,3
+2026-10-08,HOSP_C,PGMED003,Normal Saline IV,167,,requested_demand,shortage,MED004,0,3
+2026-09-24,HOSP_C,PGMED004,Paracetamol,108,,requested_demand,shortage,MED001,0,4
+2026-09-25,HOSP_C,PGMED004,Paracetamol,143,,requested_demand,shortage,MED001,0,4
+2026-09-26,HOSP_C,PGMED004,Paracetamol,142,,requested_demand,shortage,MED001,0,4
+2026-09-27,HOSP_C,PGMED004,Paracetamol,122,,requested_demand,shortage,MED001,0,4
+2026-09-28,HOSP_C,PGMED004,Paracetamol,138,,requested_demand,shortage,MED001,0,4
+2026-09-29,HOSP_C,PGMED004,Paracetamol,105,,requested_demand,shortage,MED001,0,4
+2026-09-30,HOSP_C,PGMED004,Paracetamol,109,,requested_demand,shortage,MED001,0,4
+2026-10-01,HOSP_C,PGMED004,Paracetamol,129,,requested_demand,shortage,MED001,0,4
+2026-10-02,HOSP_C,PGMED004,Paracetamol,136,,requested_demand,shortage,MED001,0,4
+2026-10-03,HOSP_C,PGMED004,Paracetamol,137,,requested_demand,shortage,MED001,0,4
+2026-10-04,HOSP_C,PGMED004,Paracetamol,115,,requested_demand,shortage,MED001,0,4
+2026-10-05,HOSP_C,PGMED004,Paracetamol,138,,requested_demand,shortage,MED001,0,4
+2026-10-06,HOSP_C,PGMED004,Paracetamol,136,,requested_demand,shortage,MED001,0,4
+2026-10-07,HOSP_C,PGMED004,Paracetamol,140,,requested_demand,shortage,MED001,0,4
+2026-10-08,HOSP_C,PGMED004,Paracetamol,133,,requested_demand,shortage,MED001,0,4
+2026-09-24,HOSP_C,PGMED005,Salbutamol,47,,requested_demand,shortage,MED003,0,7
+2026-09-25,HOSP_C,PGMED005,Salbutamol,38,,requested_demand,shortage,MED003,0,7
+2026-09-26,HOSP_C,PGMED005,Salbutamol,46,,requested_demand,shortage,MED003,0,7
+2026-09-27,HOSP_C,PGMED005,Salbutamol,42,,requested_demand,shortage,MED003,0,7
+2026-09-28,HOSP_C,PGMED005,Salbutamol,44,,requested_demand,shortage,MED003,0,7
+2026-09-29,HOSP_C,PGMED005,Salbutamol,40,,requested_demand,shortage,MED003,0,7
+2026-09-30,HOSP_C,PGMED005,Salbutamol,41,,requested_demand,shortage,MED003,0,7
+2026-10-01,HOSP_C,PGMED005,Salbutamol,39,,requested_demand,shortage,MED003,0,7
+2026-10-02,HOSP_C,PGMED005,Salbutamol,35,,requested_demand,shortage,MED003,0,7
+2026-10-03,HOSP_C,PGMED005,Salbutamol,43,,requested_demand,shortage,MED003,0,7
+2026-10-04,HOSP_C,PGMED005,Salbutamol,36,,requested_demand,shortage,MED003,0,7
+2026-10-05,HOSP_C,PGMED005,Salbutamol,32,,requested_demand,shortage,MED003,0,7
+2026-10-06,HOSP_C,PGMED005,Salbutamol,42,,requested_demand,shortage,MED003,0,7
+2026-10-07,HOSP_C,PGMED005,Salbutamol,34,,requested_demand,shortage,MED003,0,7
+2026-10-08,HOSP_C,PGMED005,Salbutamol,47,,requested_demand,shortage,MED003,0,7
+2026-09-24,HOSP_D,PGMED001,Amoxicillin,66,,requested_demand,shortage,MED002,0,6
+2026-09-25,HOSP_D,PGMED001,Amoxicillin,65,,requested_demand,shortage,MED002,0,6
+2026-09-26,HOSP_D,PGMED001,Amoxicillin,81,,requested_demand,shortage,MED002,0,6
+2026-09-27,HOSP_D,PGMED001,Amoxicillin,81,,requested_demand,shortage,MED002,0,6
+2026-09-28,HOSP_D,PGMED001,Amoxicillin,84,,requested_demand,shortage,MED002,0,6
+2026-09-29,HOSP_D,PGMED001,Amoxicillin,87,,requested_demand,shortage,MED002,0,6
+2026-09-30,HOSP_D,PGMED001,Amoxicillin,95,,requested_demand,shortage,MED002,0,6
+2026-10-01,HOSP_D,PGMED001,Amoxicillin,80,,requested_demand,shortage,MED002,0,6
+2026-10-02,HOSP_D,PGMED001,Amoxicillin,74,,requested_demand,shortage,MED002,0,6
+2026-10-03,HOSP_D,PGMED001,Amoxicillin,89,,requested_demand,shortage,MED002,0,6
+2026-10-04,HOSP_D,PGMED001,Amoxicillin,72,,requested_demand,shortage,MED002,0,6
+2026-10-05,HOSP_D,PGMED001,Amoxicillin,78,,requested_demand,shortage,MED002,0,6
+2026-10-06,HOSP_D,PGMED001,Amoxicillin,66,,requested_demand,shortage,MED002,0,6
+2026-10-07,HOSP_D,PGMED001,Amoxicillin,64,,requested_demand,shortage,MED002,0,6
+2026-10-08,HOSP_D,PGMED001,Amoxicillin,94,,requested_demand,shortage,MED002,0,6
+2026-09-24,HOSP_D,PGMED002,Atorvastatin,62,,requested_demand,shortage,MED005,0,5
+2026-09-25,HOSP_D,PGMED002,Atorvastatin,70,,requested_demand,shortage,MED005,0,5
+2026-09-26,HOSP_D,PGMED002,Atorvastatin,70,,requested_demand,shortage,MED005,0,5
+2026-09-27,HOSP_D,PGMED002,Atorvastatin,68,,requested_demand,shortage,MED005,0,5
+2026-09-28,HOSP_D,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-09-29,HOSP_D,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-09-30,HOSP_D,PGMED002,Atorvastatin,64,,requested_demand,shortage,MED005,0,5
+2026-10-01,HOSP_D,PGMED002,Atorvastatin,61,,requested_demand,shortage,MED005,0,5
+2026-10-02,HOSP_D,PGMED002,Atorvastatin,51,,requested_demand,shortage,MED005,0,5
+2026-10-03,HOSP_D,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-10-04,HOSP_D,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-10-05,HOSP_D,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-10-06,HOSP_D,PGMED002,Atorvastatin,67,,requested_demand,shortage,MED005,0,5
+2026-10-07,HOSP_D,PGMED002,Atorvastatin,63,,requested_demand,shortage,MED005,0,5
+2026-10-08,HOSP_D,PGMED002,Atorvastatin,52,,requested_demand,shortage,MED005,0,5
+2026-09-24,HOSP_D,PGMED003,Normal Saline IV,163,,requested_demand,shortage,MED004,0,3
+2026-09-25,HOSP_D,PGMED003,Normal Saline IV,228,,requested_demand,shortage,MED004,0,3
+2026-09-26,HOSP_D,PGMED003,Normal Saline IV,216,,requested_demand,shortage,MED004,0,3
+2026-09-27,HOSP_D,PGMED003,Normal Saline IV,197,,requested_demand,shortage,MED004,0,3
+2026-09-28,HOSP_D,PGMED003,Normal Saline IV,167,,requested_demand,shortage,MED004,0,3
+2026-09-29,HOSP_D,PGMED003,Normal Saline IV,199,,requested_demand,shortage,MED004,0,3
+2026-09-30,HOSP_D,PGMED003,Normal Saline IV,197,,requested_demand,shortage,MED004,0,3
+2026-10-01,HOSP_D,PGMED003,Normal Saline IV,173,,requested_demand,shortage,MED004,0,3
+2026-10-02,HOSP_D,PGMED003,Normal Saline IV,194,,requested_demand,shortage,MED004,0,3
+2026-10-03,HOSP_D,PGMED003,Normal Saline IV,191,,requested_demand,shortage,MED004,0,3
+2026-10-04,HOSP_D,PGMED003,Normal Saline IV,209,,requested_demand,shortage,MED004,0,3
+2026-10-05,HOSP_D,PGMED003,Normal Saline IV,210,,requested_demand,shortage,MED004,0,3
+2026-10-06,HOSP_D,PGMED003,Normal Saline IV,163,,requested_demand,shortage,MED004,0,3
+2026-10-07,HOSP_D,PGMED003,Normal Saline IV,189,,requested_demand,shortage,MED004,0,3
+2026-10-08,HOSP_D,PGMED003,Normal Saline IV,210,,requested_demand,shortage,MED004,0,3
+2026-09-24,HOSP_D,PGMED004,Paracetamol,112,,requested_demand,shortage,MED001,0,4
+2026-09-25,HOSP_D,PGMED004,Paracetamol,114,,requested_demand,shortage,MED001,0,4
+2026-09-26,HOSP_D,PGMED004,Paracetamol,100,,requested_demand,shortage,MED001,0,4
+2026-09-27,HOSP_D,PGMED004,Paracetamol,123,,requested_demand,shortage,MED001,0,4
+2026-09-28,HOSP_D,PGMED004,Paracetamol,97,,requested_demand,shortage,MED001,0,4
+2026-09-29,HOSP_D,PGMED004,Paracetamol,118,,requested_demand,shortage,MED001,0,4
+2026-09-30,HOSP_D,PGMED004,Paracetamol,122,,requested_demand,shortage,MED001,0,4
+2026-10-01,HOSP_D,PGMED004,Paracetamol,109,,requested_demand,shortage,MED001,0,4
+2026-10-02,HOSP_D,PGMED004,Paracetamol,124,,requested_demand,shortage,MED001,0,4
+2026-10-03,HOSP_D,PGMED004,Paracetamol,97,,requested_demand,shortage,MED001,0,4
+2026-10-04,HOSP_D,PGMED004,Paracetamol,97,,requested_demand,shortage,MED001,0,4
+2026-10-05,HOSP_D,PGMED004,Paracetamol,135,,requested_demand,shortage,MED001,0,4
+2026-10-06,HOSP_D,PGMED004,Paracetamol,113,,requested_demand,shortage,MED001,0,4
+2026-10-07,HOSP_D,PGMED004,Paracetamol,102,,requested_demand,shortage,MED001,0,4
+2026-10-08,HOSP_D,PGMED004,Paracetamol,121,,requested_demand,shortage,MED001,0,4
+2026-09-24,HOSP_D,PGMED005,Salbutamol,34,,requested_demand,shortage,MED003,0,7
+2026-09-25,HOSP_D,PGMED005,Salbutamol,34,,requested_demand,shortage,MED003,0,7
+2026-09-26,HOSP_D,PGMED005,Salbutamol,36,,requested_demand,shortage,MED003,0,7
+2026-09-27,HOSP_D,PGMED005,Salbutamol,40,,requested_demand,shortage,MED003,0,7
+2026-09-28,HOSP_D,PGMED005,Salbutamol,43,,requested_demand,shortage,MED003,0,7
+2026-09-29,HOSP_D,PGMED005,Salbutamol,42,,requested_demand,shortage,MED003,0,7
+2026-09-30,HOSP_D,PGMED005,Salbutamol,36,,requested_demand,shortage,MED003,0,7
+2026-10-01,HOSP_D,PGMED005,Salbutamol,47,,requested_demand,shortage,MED003,0,7
+2026-10-02,HOSP_D,PGMED005,Salbutamol,43,,requested_demand,shortage,MED003,0,7
+2026-10-03,HOSP_D,PGMED005,Salbutamol,40,,requested_demand,shortage,MED003,0,7
+2026-10-04,HOSP_D,PGMED005,Salbutamol,41,,requested_demand,shortage,MED003,0,7
+2026-10-05,HOSP_D,PGMED005,Salbutamol,38,,requested_demand,shortage,MED003,0,7
+2026-10-06,HOSP_D,PGMED005,Salbutamol,35,,requested_demand,shortage,MED003,0,7
+2026-10-07,HOSP_D,PGMED005,Salbutamol,37,,requested_demand,shortage,MED003,0,7
+2026-10-08,HOSP_D,PGMED005,Salbutamol,44,,requested_demand,shortage,MED003,0,7
