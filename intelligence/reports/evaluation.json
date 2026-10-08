@@ -1,0 +1,105 @@
+{
+  "dataset_origin": "synthetic",
+  "train_date_range": {
+    "start": "2026-04-12",
+    "end": "2026-09-10"
+  },
+  "validation_date_range": {
+    "start": "2026-09-11",
+    "end": "2026-09-24"
+  },
+  "test_date_range": {
+    "start": "2026-09-25",
+    "end": "2026-10-08"
+  },
+  "training_feature_date_range": {
+    "start": "2026-04-26",
+    "end": "2026-09-10"
+  },
+  "evaluation_fit_date_range": {
+    "start": "2026-04-12",
+    "end": "2026-09-24"
+  },
+  "serving_training_date_range": {
+    "start": "2026-04-12",
+    "end": "2026-10-08"
+  },
+  "number_of_hospitals": 4,
+  "number_of_medicines": 5,
+  "number_of_observations": 3600,
+  "model_version": "lightgbm-v1",
+  "model_hyperparameters": {
+    "n_estimators": 120,
+    "learning_rate": 0.04,
+    "num_leaves": 15,
+    "max_depth": 5,
+    "min_child_samples": 30,
+    "reg_lambda": 2.0,
+    "random_state": 42,
+    "n_jobs": 2,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "selection_hyperparameters": {
+    "n_estimators": 250,
+    "learning_rate": 0.04,
+    "num_leaves": 15,
+    "max_depth": 5,
+    "min_child_samples": 30,
+    "reg_lambda": 2.0,
+    "random_state": 42,
+    "n_jobs": 2,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "random_seed": 42,
+  "best_iteration": 120,
+  "test_horizon_days": 14,
+  "validation_method": "Chronological one-step validation for early stopping (past observed lags).",
+  "test_method": "Fixed-origin recursive holdout; only predicted targets are appended.",
+  "serving_refit": "Full dataset after evaluation; held-out results belong to the pre-test model.",
+  "evaluation_observations": 280,
+  "lightgbm_metrics": {
+    "MAE": 5.715917592470695,
+    "WAPE": 0.07075093611651981,
+    "RMSE": 9.320308122693694
+  },
+  "baseline_metrics": {
+    "MAE": 6.896428571428571,
+    "WAPE": 0.08536315812740373,
+    "RMSE": 10.958199800019292
+  },
+  "lightgbm_outperformed_baseline": true,
+  "comparison_rule": "Lower MAE and no worse WAPE/RMSE on the same rows",
+  "horizons": {
+    "7": {
+      "observations": 140,
+      "lightgbm": {
+        "MAE": 6.784770247668942,
+        "WAPE": 0.08331443160017998,
+        "RMSE": 10.682693039667965
+      },
+      "baseline": {
+        "MAE": 7.671428571428572,
+        "WAPE": 0.09420226295938952,
+        "RMSE": 12.143781477424096
+      }
+    },
+    "14": {
+      "observations": 280,
+      "lightgbm": {
+        "MAE": 5.715917592470695,
+        "WAPE": 0.07075093611651981,
+        "RMSE": 9.320308122693694
+      },
+      "baseline": {
+        "MAE": 6.896428571428571,
+        "WAPE": 0.08536315812740373,
+        "RMSE": 10.958199800019292
+      }
+    }
+  },
+  "limitations": "Synthetic metrics measure simulated behavior only; no real-world validation. One forecast origin, no uncertainty intervals. Outbreak flags are excluded."
+}
