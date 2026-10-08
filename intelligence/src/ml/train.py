@@ -55,6 +55,7 @@ def train_model(data_path: str | Path = DEFAULT_SYNTHETIC,
     test_data = data[data.date >= test_start]
     pretest = data[data.date < test_start]
     # Features for fitting/early stopping exclude the final test entirely.
+    # pyrefly: ignore [bad-argument-type]
     featured = build_features(pretest, categories).dropna(subset=FEATURE_NAMES)
     train_rows = featured[featured.date < validation_start]
     val_rows = featured[featured.date >= validation_start]

@@ -1,4 +1,10 @@
+import os
 from pathlib import Path
+
+# Prevent OpenBLAS memory allocation failures on Windows with Python 3.14+
+os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+
 import pytest
 from src.ml.data_loader import load_data
 from src.ml.synthetic_data import generate_synthetic

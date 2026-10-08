@@ -1,5 +1,6 @@
 """Load persisted artifacts and predict recursively, without retraining."""
 from pathlib import Path
+from typing import cast
 import joblib
 import numpy as np
 import pandas as pd
@@ -26,7 +27,8 @@ def recursive_forecast(model, history: pd.DataFrame, categories: dict,
         raise ValueError("horizon_days must be 7 or 14")
     if len(history) < 14 or len(history[KEYS].drop_duplicates()) != 1:
         raise ValueError("Recursive prediction needs one series with at least 14 days")
-    working = history[["date", *KEYS, "quantity_requested"]].sort_values("date").tail(14).copy()
+    cols = ["date", *KEYS, "quantity_requested"]
+    working = cast(pd.DataFrame, history[cols]).sort_values("date").tail(14).copy()
     if not working.date.diff().dropna().eq(pd.Timedelta(days=1)).all():
         raise ValueError("Recursive prediction requires consecutive daily history")
     rows = []
