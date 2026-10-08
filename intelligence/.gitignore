@@ -4,3 +4,5 @@ __pycache__/
 models/*.joblib
 !models/lightgbm_v1.joblib
 .env
+.env.*
+!.env.example
