@@ -1,2 +1,1 @@
-# singularity-ajiet
-Repository for Singularity Hackathon '26 - AJIET
+LightGBM - linear gradiant boosting machine implementation for forecasting  
